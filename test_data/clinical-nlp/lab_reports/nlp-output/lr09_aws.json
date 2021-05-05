@@ -1,0 +1,3133 @@
+{
+    "Results": {
+        "Entities": [
+            {
+                "Id": 34,
+                "BeginOffset": 9,
+                "EndOffset": 13,
+                "Score": 0.8941022753715515,
+                "Text": "labs",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 35,
+                "BeginOffset": 24,
+                "EndOffset": 27,
+                "Score": 0.996868908405304,
+                "Text": "ESR",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9955875873565674,
+                        "RelationshipScore": 0.9999983310699463,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 36,
+                        "BeginOffset": 31,
+                        "EndOffset": 33,
+                        "Text": "31",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 37,
+                "BeginOffset": 39,
+                "EndOffset": 51,
+                "Score": 0.9853273630142212,
+                "Text": "serum sodium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9966463446617126,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 38,
+                        "BeginOffset": 55,
+                        "EndOffset": 58,
+                        "Text": "124",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 39,
+                "BeginOffset": 60,
+                "EndOffset": 63,
+                "Score": 0.9993147850036621,
+                "Text": "BUN",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9961140155792236,
+                        "RelationshipScore": 0.9999980926513672,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 40,
+                        "BeginOffset": 67,
+                        "EndOffset": 69,
+                        "Text": "11",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 41,
+                "BeginOffset": 75,
+                "EndOffset": 85,
+                "Score": 0.9994218349456787,
+                "Text": "creatinine",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9995967745780945,
+                        "RelationshipScore": 0.9999997615814209,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 42,
+                        "BeginOffset": 89,
+                        "EndOffset": 92,
+                        "Text": "1.3",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 43,
+                "BeginOffset": 94,
+                "EndOffset": 104,
+                "Score": 0.9985338449478149,
+                "Text": "Hemoglobin",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9994609951972961,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 44,
+                        "BeginOffset": 105,
+                        "EndOffset": 108,
+                        "Text": "9.8",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 45,
+                "BeginOffset": 113,
+                "EndOffset": 123,
+                "Score": 0.9965718984603882,
+                "Text": "hematocrit",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9987240433692932,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 46,
+                        "BeginOffset": 124,
+                        "EndOffset": 126,
+                        "Text": "29",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 47,
+                "BeginOffset": 128,
+                "EndOffset": 144,
+                "Score": 0.8961012363433838,
+                "Text": "Laboratory tests",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 49,
+                "BeginOffset": 223,
+                "EndOffset": 229,
+                "Score": 0.9653834700584412,
+                "Text": "sodium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9042941927909851,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 48,
+                        "BeginOffset": 219,
+                        "EndOffset": 222,
+                        "Text": "low",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 50,
+                "BeginOffset": 235,
+                "EndOffset": 241,
+                "Score": 0.9923324584960938,
+                "Text": "sodium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9934983253479004,
+                        "RelationshipScore": 0.9998372793197632,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 51,
+                        "BeginOffset": 245,
+                        "EndOffset": 248,
+                        "Text": "124",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 53,
+                "BeginOffset": 259,
+                "EndOffset": 265,
+                "Score": 0.7350701689720154,
+                "Text": "sodium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7346432209014893,
+                        "RelationshipScore": 0.9994584918022156,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 52,
+                        "BeginOffset": 255,
+                        "EndOffset": 258,
+                        "Text": "low",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 55,
+                "BeginOffset": 369,
+                "EndOffset": 372,
+                "Score": 0.9979903697967529,
+                "Text": "BUN",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9778802394866943,
+                        "RelationshipScore": 0.9999980926513672,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 54,
+                        "BeginOffset": 362,
+                        "EndOffset": 368,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 56,
+                "BeginOffset": 378,
+                "EndOffset": 388,
+                "Score": 0.9993439316749573,
+                "Text": "creatinine",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9778802394866943,
+                        "RelationshipScore": 0.6537715196609497,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 54,
+                        "BeginOffset": 362,
+                        "EndOffset": 368,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9661298394203186,
+                        "RelationshipScore": 0.9999984502792358,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 57,
+                        "BeginOffset": 397,
+                        "EndOffset": 400,
+                        "Text": "1.1",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9311023354530334,
+                        "RelationshipScore": 0.9998577833175659,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 58,
+                        "BeginOffset": 405,
+                        "EndOffset": 408,
+                        "Text": "1.2",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 59,
+                "BeginOffset": 426,
+                "EndOffset": 443,
+                "Score": 0.9139014482498169,
+                "Text": "total cholesterol",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9923533797264099,
+                        "RelationshipScore": 0.9998706579208374,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 60,
+                        "BeginOffset": 447,
+                        "EndOffset": 450,
+                        "Text": "240",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 61,
+                "BeginOffset": 456,
+                "EndOffset": 459,
+                "Score": 0.998384952545166,
+                "Text": "HDL",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.996674656867981,
+                        "RelationshipScore": 0.9999977350234985,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 62,
+                        "BeginOffset": 463,
+                        "EndOffset": 466,
+                        "Text": "138",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 63,
+                "BeginOffset": 474,
+                "EndOffset": 477,
+                "Score": 0.9990909099578857,
+                "Text": "LDL",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9996090531349182,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 64,
+                        "BeginOffset": 481,
+                        "EndOffset": 483,
+                        "Text": "88",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 65,
+                "BeginOffset": 485,
+                "EndOffset": 500,
+                "Score": 0.99692302942276,
+                "Text": "Cardiac enzymes",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7204164266586304,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 66,
+                        "BeginOffset": 506,
+                        "EndOffset": 540,
+                        "Text": "negative for myocardial infarction",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 17,
+                "BeginOffset": 519,
+                "EndOffset": 540,
+                "Score": 0.7049010396003723,
+                "Text": "myocardial infarction",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8411424160003662
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.7526417970657349
+                    }
+                ]
+            },
+            {
+                "Id": 67,
+                "BeginOffset": 542,
+                "EndOffset": 568,
+                "Score": 0.9816962480545044,
+                "Text": "B-type natriuretic peptide",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8475929498672485,
+                        "RelationshipScore": 0.9999974966049194,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 68,
+                        "BeginOffset": 573,
+                        "EndOffset": 590,
+                        "Text": "slightly elevated",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.45329272747039795,
+                        "RelationshipScore": 0.999237060546875,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 69,
+                        "BeginOffset": 594,
+                        "EndOffset": 597,
+                        "Text": "120",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.4403766691684723,
+                        "RelationshipScore": 0.9966995120048523,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 70,
+                        "BeginOffset": 603,
+                        "EndOffset": 609,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.5971464514732361,
+                        "RelationshipScore": 0.9983207583427429,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 71,
+                        "BeginOffset": 624,
+                        "EndOffset": 625,
+                        "Text": "0",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.965356707572937,
+                        "RelationshipScore": 0.9997130036354065,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 72,
+                        "BeginOffset": 630,
+                        "EndOffset": 633,
+                        "Text": "100",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 73,
+                "BeginOffset": 635,
+                "EndOffset": 650,
+                "Score": 0.700736403465271,
+                "Text": "CK-MB fractions",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.981873095035553,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 74,
+                        "BeginOffset": 656,
+                        "EndOffset": 664,
+                        "Text": "negative",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 75,
+                "BeginOffset": 666,
+                "EndOffset": 673,
+                "Score": 0.9672456383705139,
+                "Text": "Amylase",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 76,
+                "BeginOffset": 685,
+                "EndOffset": 691,
+                "Score": 0.9892920255661011,
+                "Text": "lipase",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9380402565002441,
+                        "RelationshipScore": 0.9999661445617676,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 77,
+                        "BeginOffset": 702,
+                        "EndOffset": 722,
+                        "Text": "within normal limits",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 78,
+                "BeginOffset": 724,
+                "EndOffset": 728,
+                "Score": 0.9892136454582214,
+                "Text": "Iron",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9939306974411011,
+                        "RelationshipScore": 0.9999665021896362,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 79,
+                        "BeginOffset": 733,
+                        "EndOffset": 735,
+                        "Text": "60",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 80,
+                "BeginOffset": 737,
+                "EndOffset": 749,
+                "Score": 0.9890280961990356,
+                "Text": "Urine sodium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.4474436342716217,
+                        "RelationshipScore": 0.999981164932251,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 81,
+                        "BeginOffset": 754,
+                        "EndOffset": 757,
+                        "Text": "low",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9672070741653442,
+                        "RelationshipScore": 0.9997339844703674,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 82,
+                        "BeginOffset": 761,
+                        "EndOffset": 763,
+                        "Text": "22",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 83,
+                "BeginOffset": 765,
+                "EndOffset": 771,
+                "Score": 0.7378645539283752,
+                "Text": "CA-125",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.5066390633583069,
+                        "RelationshipScore": 0.9999369382858276,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 84,
+                        "BeginOffset": 776,
+                        "EndOffset": 782,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9946054816246033,
+                        "RelationshipScore": 0.9997687935829163,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 85,
+                        "BeginOffset": 786,
+                        "EndOffset": 790,
+                        "Text": "21.2",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 86,
+                "BeginOffset": 792,
+                "EndOffset": 809,
+                "Score": 0.9950828552246094,
+                "Text": "Alpha-fetoprotein",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.4944784343242645,
+                        "RelationshipScore": 0.9999817609786987,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 87,
+                        "BeginOffset": 814,
+                        "EndOffset": 820,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9912863373756409,
+                        "RelationshipScore": 0.9997616410255432,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 88,
+                        "BeginOffset": 824,
+                        "EndOffset": 827,
+                        "Text": "7.5",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 89,
+                "BeginOffset": 829,
+                "EndOffset": 832,
+                "Score": 0.9989068508148193,
+                "Text": "TSH",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.4986260235309601,
+                        "RelationshipScore": 0.9999765157699585,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 90,
+                        "BeginOffset": 837,
+                        "EndOffset": 843,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9962053894996643,
+                        "RelationshipScore": 0.999961256980896,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 91,
+                        "BeginOffset": 847,
+                        "EndOffset": 850,
+                        "Text": "3.7",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 92,
+                "BeginOffset": 852,
+                "EndOffset": 855,
+                "Score": 0.9970478415489197,
+                "Text": "CEA",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.5050647258758545,
+                        "RelationshipScore": 0.9999245405197144,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 93,
+                        "BeginOffset": 860,
+                        "EndOffset": 866,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9937359094619751,
+                        "RelationshipScore": 0.9988577365875244,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 94,
+                        "BeginOffset": 870,
+                        "EndOffset": 873,
+                        "Text": "0.6",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 95,
+                "BeginOffset": 875,
+                "EndOffset": 885,
+                "Score": 0.9567282795906067,
+                "Text": "Folic acid",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.4526003897190094,
+                        "RelationshipScore": 0.9999986886978149,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 96,
+                        "BeginOffset": 890,
+                        "EndOffset": 903,
+                        "Text": "normal at 7.4",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 97,
+                "BeginOffset": 905,
+                "EndOffset": 922,
+                "Score": 0.9851133823394775,
+                "Text": "Vitamin B12 level",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.5453801155090332,
+                        "RelationshipScore": 0.9994968175888062,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 98,
+                        "BeginOffset": 927,
+                        "EndOffset": 933,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9774328470230103,
+                        "RelationshipScore": 0.999860405921936,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 99,
+                        "BeginOffset": 937,
+                        "EndOffset": 940,
+                        "Text": "528",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 100,
+                "BeginOffset": 942,
+                "EndOffset": 965,
+                "Score": 0.989879846572876,
+                "Text": "Hepatitis viral profile",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 18,
+                "BeginOffset": 983,
+                "EndOffset": 994,
+                "Score": 0.9382004737854004,
+                "Text": "hepatitis B",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9299545884132385
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.7726666331291199
+                    }
+                ]
+            },
+            {
+                "Id": 102,
+                "BeginOffset": 983,
+                "EndOffset": 994,
+                "Score": 0.7344293594360352,
+                "Text": "hepatitis B",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7185299396514893,
+                        "RelationshipScore": 0.9999580383300781,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 101,
+                        "BeginOffset": 970,
+                        "EndOffset": 978,
+                        "Text": "negative",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 19,
+                "BeginOffset": 996,
+                "EndOffset": 1007,
+                "Score": 0.9272671937942505,
+                "Text": "hepatitis A",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8845447897911072
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.517697274684906
+                    }
+                ]
+            },
+            {
+                "Id": 103,
+                "BeginOffset": 996,
+                "EndOffset": 1007,
+                "Score": 0.8319514393806458,
+                "Text": "hepatitis A",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7185299396514893,
+                        "RelationshipScore": 0.9178135991096497,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 101,
+                        "BeginOffset": 970,
+                        "EndOffset": 978,
+                        "Text": "negative",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 20,
+                "BeginOffset": 1013,
+                "EndOffset": 1042,
+                "Score": 0.6840569376945496,
+                "Text": "hepatitis C. Urine osmolality",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 104,
+                "BeginOffset": 1013,
+                "EndOffset": 1042,
+                "Score": 0.9796540141105652,
+                "Text": "hepatitis C. Urine osmolality",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.508050262928009,
+                        "RelationshipScore": 0.9999997615814209,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 105,
+                        "BeginOffset": 1047,
+                        "EndOffset": 1057,
+                        "Text": "low at 148",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 106,
+                "BeginOffset": 1063,
+                "EndOffset": 1079,
+                "Score": 0.9972409009933472,
+                "Text": "blood osmolality",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.5274599194526672,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 107,
+                        "BeginOffset": 1080,
+                        "EndOffset": 1093,
+                        "Text": "normal at 263",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 108,
+                "BeginOffset": 1095,
+                "EndOffset": 1105,
+                "Score": 0.9985791444778442,
+                "Text": "Urinalysis",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.633435845375061,
+                        "RelationshipScore": 0.9999535083770752,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 109,
+                        "BeginOffset": 1110,
+                        "EndOffset": 1118,
+                        "Text": "negative",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 0,
+                "BeginOffset": 1134,
+                "EndOffset": 1147,
+                "Score": 0.4676399528980255,
+                "Text": "urinary tract",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 21,
+                "BeginOffset": 1134,
+                "EndOffset": 1157,
+                "Score": 0.961012601852417,
+                "Text": "urinary tract infection",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8100974559783936
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.7479018568992615
+                    }
+                ]
+            },
+            {
+                "Id": 110,
+                "BeginOffset": 1159,
+                "EndOffset": 1169,
+                "Score": 0.9902560114860535,
+                "Text": "Hemoglobin",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8865691423416138,
+                        "RelationshipScore": 0.9999996423721313,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 111,
+                        "BeginOffset": 1190,
+                        "EndOffset": 1193,
+                        "Text": "9.7",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9439334273338318,
+                        "RelationshipScore": 0.9999948740005493,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 112,
+                        "BeginOffset": 1198,
+                        "EndOffset": 1201,
+                        "Text": "8.7",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.66319340467453,
+                        "RelationshipScore": 0.9999731779098511,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 113,
+                        "BeginOffset": 1225,
+                        "EndOffset": 1228,
+                        "Text": "8.7",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 114,
+                "BeginOffset": 1300,
+                "EndOffset": 1326,
+                "Score": 0.960877001285553,
+                "Text": "Hemoglobin electrophoresis",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8257741928100586,
+                        "RelationshipScore": 0.9999994039535522,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 115,
+                        "BeginOffset": 1331,
+                        "EndOffset": 1337,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8612155318260193,
+                        "RelationshipScore": 0.9999996423721313,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 116,
+                        "BeginOffset": 1343,
+                        "EndOffset": 1366,
+                        "Text": "no hemoglobin variation",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 117,
+                "BeginOffset": 1387,
+                "EndOffset": 1390,
+                "Score": 0.7802354693412781,
+                "Text": "MRI",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.98138028383255,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 118,
+                        "BeginOffset": 1428,
+                        "EndOffset": 1456,
+                        "Text": "no acute ischemia identified",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.966685950756073,
+                        "RelationshipScore": 0.9999994039535522,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 119,
+                        "BeginOffset": 1467,
+                        "EndOffset": 1521,
+                        "Text": "mild age-related chronic small vessel ischemic disease",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 1,
+                "BeginOffset": 1398,
+                "EndOffset": 1403,
+                "Score": 0.9866927266120911,
+                "Text": "brain",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 23,
+                "BeginOffset": 1437,
+                "EndOffset": 1445,
+                "Score": 0.9871895909309387,
+                "Text": "ischemia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7852870225906372
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9338908195495605
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.8907040357589722,
+                        "RelationshipScore": 0.9999983310699463,
+                        "RelationshipType": "ACUITY",
+                        "Id": 22,
+                        "BeginOffset": 1431,
+                        "EndOffset": 1436,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 1492,
+                "EndOffset": 1504,
+                "Score": 0.5782505869865417,
+                "Text": "small vessel",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 25,
+                "BeginOffset": 1498,
+                "EndOffset": 1521,
+                "Score": 0.7602556347846985,
+                "Text": "vessel ischemic disease",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9125015735626221
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.9813466668128967,
+                        "RelationshipScore": 0.5955353379249573,
+                        "RelationshipType": "ACUITY",
+                        "Id": 24,
+                        "BeginOffset": 1484,
+                        "EndOffset": 1491,
+                        "Text": "chronic",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5782505869865417,
+                        "RelationshipScore": 0.8215281963348389,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 2,
+                        "BeginOffset": 1492,
+                        "EndOffset": 1504,
+                        "Text": "small vessel",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 120,
+                "BeginOffset": 1523,
+                "EndOffset": 1543,
+                "Score": 0.962917149066925,
+                "Text": "Noncontrast CAT scan",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9911706447601318,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 121,
+                        "BeginOffset": 1563,
+                        "EndOffset": 1591,
+                        "Text": "no evidence of acute infarct",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9130028486251831,
+                        "RelationshipScore": 0.9999982118606567,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 122,
+                        "BeginOffset": 1603,
+                        "EndOffset": 1634,
+                        "Text": "no mass effect or midline shift",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 1551,
+                "EndOffset": 1555,
+                "Score": 0.9864827990531921,
+                "Text": "head",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 27,
+                "BeginOffset": 1584,
+                "EndOffset": 1591,
+                "Score": 0.9768775701522827,
+                "Text": "infarct",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.41285908222198486
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5892996191978455
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9367404580116272
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.8757680058479309,
+                        "RelationshipScore": 0.9999816417694092,
+                        "RelationshipType": "ACUITY",
+                        "Id": 26,
+                        "BeginOffset": 1578,
+                        "EndOffset": 1583,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 28,
+                "BeginOffset": 1606,
+                "EndOffset": 1617,
+                "Score": 0.8774054646492004,
+                "Text": "mass effect",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.628082811832428
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9229789972305298
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.6321457028388977,
+                        "RelationshipScore": 0.8578734397888184,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 4,
+                        "BeginOffset": 1621,
+                        "EndOffset": 1628,
+                        "Text": "midline",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 5,
+                "BeginOffset": 1636,
+                "EndOffset": 1641,
+                "Score": 0.9878879189491272,
+                "Text": "Chest",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 123,
+                "BeginOffset": 1636,
+                "EndOffset": 1647,
+                "Score": 0.9784638285636902,
+                "Text": "Chest x-ray",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.988190770149231,
+                        "RelationshipScore": 0.9999990463256836,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 124,
+                        "BeginOffset": 1655,
+                        "EndOffset": 1693,
+                        "Text": "eventration of the right hemidiaphragm",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7701692581176758,
+                        "RelationshipScore": 0.9999480247497559,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 125,
+                        "BeginOffset": 1705,
+                        "EndOffset": 1717,
+                        "Text": "unremarkable",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 29,
+                "BeginOffset": 1655,
+                "EndOffset": 1693,
+                "Score": 0.33075934648513794,
+                "Text": "eventration of the right hemidiaphragm",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.48039644956588745
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9878879189491272,
+                        "RelationshipScore": 0.9433119297027588,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 5,
+                        "BeginOffset": 1636,
+                        "EndOffset": 1641,
+                        "Text": "Chest",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 7,
+                "BeginOffset": 1680,
+                "EndOffset": 1693,
+                "Score": 0.9422096014022827,
+                "Text": "hemidiaphragm",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 126,
+                "BeginOffset": 1719,
+                "EndOffset": 1739,
+                "Score": 0.9947680234909058,
+                "Text": "Abdominal ultrasound",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.991500973701477,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 127,
+                        "BeginOffset": 1747,
+                        "EndOffset": 1766,
+                        "Text": "fatty liver changes",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8351963758468628,
+                        "RelationshipScore": 0.9999140501022339,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 128,
+                        "BeginOffset": 1771,
+                        "EndOffset": 1789,
+                        "Text": "normal gallbladder",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 30,
+                "BeginOffset": 1747,
+                "EndOffset": 1766,
+                "Score": 0.5266684889793396,
+                "Text": "fatty liver changes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.42367103695869446
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.565101683139801
+                    }
+                ]
+            },
+            {
+                "Id": 8,
+                "BeginOffset": 1753,
+                "EndOffset": 1758,
+                "Score": 0.9449682831764221,
+                "Text": "liver",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 31,
+                "BeginOffset": 1771,
+                "EndOffset": 1789,
+                "Score": 0.3619646430015564,
+                "Text": "normal gallbladder",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.6603720188140869
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5129761099815369
+                    }
+                ]
+            },
+            {
+                "Id": 9,
+                "BeginOffset": 1778,
+                "EndOffset": 1789,
+                "Score": 0.9210798144340515,
+                "Text": "gallbladder",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 129,
+                "BeginOffset": 1791,
+                "EndOffset": 1799,
+                "Score": 0.9831074476242065,
+                "Text": "CAT scan",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7690108418464661,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 130,
+                        "BeginOffset": 1832,
+                        "EndOffset": 1895,
+                        "Text": "liver, gallbladder, biliary tree, and pancreas was unremarkable",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9625616073608398,
+                        "RelationshipScore": 0.9999995231628418,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 131,
+                        "BeginOffset": 1901,
+                        "EndOffset": 1926,
+                        "Text": "spleen was normal in size",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9779490232467651,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 132,
+                        "BeginOffset": 1939,
+                        "EndOffset": 1957,
+                        "Text": "no adrenal lesions",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 10,
+                "BeginOffset": 1807,
+                "EndOffset": 1814,
+                "Score": 0.9949859380722046,
+                "Text": "abdomen",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 1832,
+                "EndOffset": 1837,
+                "Score": 0.9858988523483276,
+                "Text": "liver",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 12,
+                "BeginOffset": 1839,
+                "EndOffset": 1850,
+                "Score": 0.9658479690551758,
+                "Text": "gallbladder",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 13,
+                "BeginOffset": 1852,
+                "EndOffset": 1864,
+                "Score": 0.7554547190666199,
+                "Text": "biliary tree",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 14,
+                "BeginOffset": 1870,
+                "EndOffset": 1878,
+                "Score": 0.9632298350334167,
+                "Text": "pancreas",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 15,
+                "BeginOffset": 1901,
+                "EndOffset": 1907,
+                "Score": 0.9784558415412903,
+                "Text": "spleen",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 32,
+                "BeginOffset": 1942,
+                "EndOffset": 1957,
+                "Score": 0.7621504068374634,
+                "Text": "adrenal lesions",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.8528698682785034
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9684233665466309
+                    }
+                ]
+            },
+            {
+                "Id": 16,
+                "BeginOffset": 1963,
+                "EndOffset": 1970,
+                "Score": 0.9761067628860474,
+                "Text": "kidneys",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 33,
+                "BeginOffset": 2005,
+                "EndOffset": 2024,
+                "Score": 0.8734739422798157,
+                "Text": "renal calcification",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.8457382321357727
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9616573452949524
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9761067628860474,
+                        "RelationshipScore": 0.9283513426780701,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 16,
+                        "BeginOffset": 1963,
+                        "EndOffset": 1970,
+                        "Text": "kidneys",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 139,
+                "BeginOffset": 2044,
+                "EndOffset": 2058,
+                "Score": 0.9392692446708679,
+                "Text": "hydronephrosis",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5981120467185974
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9136163592338562
+                    }
+                ]
+            },
+            {
+                "Id": 140,
+                "BeginOffset": 2089,
+                "EndOffset": 2113,
+                "Score": 0.7582076787948608,
+                "Text": "retroperitoneal bleeding",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.46764692664146423
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9518846273422241
+                    }
+                ]
+            },
+            {
+                "Id": 148,
+                "BeginOffset": 2119,
+                "EndOffset": 2127,
+                "Score": 0.9853517413139343,
+                "Text": "CAT scan",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 135,
+                "BeginOffset": 2135,
+                "EndOffset": 2141,
+                "Score": 0.9686667919158936,
+                "Text": "pelvis",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 149,
+                "BeginOffset": 2187,
+                "EndOffset": 2199,
+                "Score": 0.16075778007507324,
+                "Text": "IUD in place",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 137,
+                "BeginOffset": 2217,
+                "EndOffset": 2224,
+                "Score": 0.24734273552894592,
+                "Text": "colonic",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 141,
+                "BeginOffset": 2217,
+                "EndOffset": 2236,
+                "Score": 0.6798667907714844,
+                "Text": "colonic diverticuli",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.767859160900116
+                    }
+                ]
+            },
+            {
+                "Id": 150,
+                "BeginOffset": 2238,
+                "EndOffset": 2252,
+                "Score": 0.9956690073013306,
+                "Text": "Echocardiogram",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9904387593269348,
+                        "RelationshipScore": 0.9999997615814209,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 151,
+                        "BeginOffset": 2270,
+                        "EndOffset": 2314,
+                        "Text": "preserved left ventricular systolic function",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.6851582527160645,
+                        "RelationshipScore": 0.9999983310699463,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 152,
+                        "BeginOffset": 2320,
+                        "EndOffset": 2369,
+                        "Text": "evidence of possible diastolic compliance changes",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9675554633140564,
+                        "RelationshipScore": 0.9999933242797852,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 153,
+                        "BeginOffset": 2381,
+                        "EndOffset": 2414,
+                        "Text": "trivial valvular flow abnormality",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9868841171264648,
+                        "RelationshipScore": 0.9999477863311768,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 154,
+                        "BeginOffset": 2426,
+                        "EndOffset": 2463,
+                        "Text": "no gross mural thrombi or vegetations",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 142,
+                "BeginOffset": 2341,
+                "EndOffset": 2369,
+                "Score": 0.6914908289909363,
+                "Text": "diastolic compliance changes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.48168957233428955
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.44976183772087097
+                    }
+                ]
+            },
+            {
+                "Id": 143,
+                "BeginOffset": 2389,
+                "EndOffset": 2414,
+                "Score": 0.7840879559516907,
+                "Text": "valvular flow abnormality",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.41498857736587524
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7541766166687012
+                    }
+                ]
+            },
+            {
+                "Id": 144,
+                "BeginOffset": 2435,
+                "EndOffset": 2448,
+                "Score": 0.6838693618774414,
+                "Text": "mural thrombi",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.5153516530990601
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9440120458602905
+                    }
+                ]
+            },
+            {
+                "Id": 145,
+                "BeginOffset": 2452,
+                "EndOffset": 2463,
+                "Score": 0.618744432926178,
+                "Text": "vegetations",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.4077908992767334
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.8412074446678162
+                    }
+                ]
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.8907040357589722,
+                    "Id": 22,
+                    "BeginOffset": 1431,
+                    "EndOffset": 1436,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.9813466668128967,
+                    "Id": 24,
+                    "BeginOffset": 1484,
+                    "EndOffset": 1491,
+                    "Text": "chronic",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.8757680058479309,
+                    "Id": 26,
+                    "BeginOffset": 1578,
+                    "EndOffset": 1583,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.6321457028388977,
+                    "Id": 4,
+                    "BeginOffset": 1621,
+                    "EndOffset": 1628,
+                    "Text": "midline",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.9882385730743408,
+                    "Id": 6,
+                    "BeginOffset": 1674,
+                    "EndOffset": 1679,
+                    "Text": "right",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.9212512373924255,
+                    "Id": 133,
+                    "BeginOffset": 1963,
+                    "EndOffset": 1990,
+                    "Text": "kidneys were normal in size",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.9782916307449341,
+                    "Id": 134,
+                    "BeginOffset": 2002,
+                    "EndOffset": 2024,
+                    "Text": "no renal calcification",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.4662823975086212,
+                    "Id": 146,
+                    "BeginOffset": 2041,
+                    "EndOffset": 2058,
+                    "Text": "no hydronephrosis",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.9658170938491821,
+                    "Id": 147,
+                    "BeginOffset": 2070,
+                    "EndOffset": 2113,
+                    "Text": "no evidence of any retroperitoneal bleeding",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.955122709274292,
+                    "Id": 136,
+                    "BeginOffset": 2211,
+                    "EndOffset": 2216,
+                    "Text": "right",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.9406937956809998,
+                    "Id": 138,
+                    "BeginOffset": 2280,
+                    "EndOffset": 2284,
+                    "Text": "left",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "1.0.0"
+    },
+    "ProtectedHealthInformation": {
+        "Entities": [],
+        "ModelVersion": "0.0.0"
+    },
+    "RXNorm_identifiers": {
+        "Entities": [],
+        "ModelVersion": "20200504.1.0"
+    },
+    "ICD10CM_identifiers": {
+        "Entities": [
+            {
+                "Id": 0,
+                "Text": "myocardial infarction",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.7049010396003723,
+                "BeginOffset": 519,
+                "EndOffset": 540,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8411424160003662
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.7526417970657349
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Acute myocardial infarction, unspecified",
+                        "Code": "I21.9",
+                        "Score": 0.8278983235359192
+                    },
+                    {
+                        "Description": "Old myocardial infarction",
+                        "Code": "I25.2",
+                        "Score": 0.8213062286376953
+                    },
+                    {
+                        "Description": "Myocardial infarction type 2",
+                        "Code": "I21.A1",
+                        "Score": 0.7297888994216919
+                    },
+                    {
+                        "Description": "ST elevation (STEMI) myocardial infarction of unspecified site",
+                        "Code": "I21.3",
+                        "Score": 0.7297772765159607
+                    },
+                    {
+                        "Description": "Non-ST elevation (NSTEMI) myocardial infarction",
+                        "Code": "I21.4",
+                        "Score": 0.704287052154541
+                    }
+                ]
+            },
+            {
+                "Id": 1,
+                "Text": "hepatitis B",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9382004737854004,
+                "BeginOffset": 983,
+                "EndOffset": 994,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9299545884132385
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.7726666331291199
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Unspecified viral hepatitis B without hepatic coma",
+                        "Code": "B19.10",
+                        "Score": 0.484536737203598
+                    },
+                    {
+                        "Description": "Unspecified viral hepatitis C without hepatic coma",
+                        "Code": "B19.20",
+                        "Score": 0.34157681465148926
+                    },
+                    {
+                        "Description": "Chronic viral hepatitis B without delta-agent",
+                        "Code": "B18.1",
+                        "Score": 0.2786237299442291
+                    },
+                    {
+                        "Description": "Chronic viral hepatitis C",
+                        "Code": "B18.2",
+                        "Score": 0.27836108207702637
+                    },
+                    {
+                        "Description": "Unspecified viral hepatitis B with hepatic coma",
+                        "Code": "B19.11",
+                        "Score": 0.24023765325546265
+                    }
+                ]
+            },
+            {
+                "Id": 2,
+                "Text": "hepatitis A",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9272671937942505,
+                "BeginOffset": 996,
+                "EndOffset": 1007,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8845447897911072
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.517697274684906
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Unspecified viral hepatitis C without hepatic coma",
+                        "Code": "B19.20",
+                        "Score": 0.405212938785553
+                    },
+                    {
+                        "Description": "Chronic viral hepatitis C",
+                        "Code": "B18.2",
+                        "Score": 0.372683584690094
+                    },
+                    {
+                        "Description": "Unspecified viral hepatitis B without hepatic coma",
+                        "Code": "B19.10",
+                        "Score": 0.37245404720306396
+                    },
+                    {
+                        "Description": "Inflammatory liver disease, unspecified",
+                        "Code": "K75.9",
+                        "Score": 0.3687395751476288
+                    },
+                    {
+                        "Description": "Alcoholic hepatitis without ascites",
+                        "Code": "K70.10",
+                        "Score": 0.35436663031578064
+                    }
+                ]
+            },
+            {
+                "Id": 3,
+                "Text": "hepatitis C. Urine osmolality",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.6840569376945496,
+                "BeginOffset": 1013,
+                "EndOffset": 1042,
+                "Attributes": [],
+                "Traits": [],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Unspecified viral hepatitis C without hepatic coma",
+                        "Code": "B19.20",
+                        "Score": 0.4233511686325073
+                    },
+                    {
+                        "Description": "Other abnormal findings in urine",
+                        "Code": "R82.998",
+                        "Score": 0.3691275119781494
+                    },
+                    {
+                        "Description": "Chronic viral hepatitis C",
+                        "Code": "B18.2",
+                        "Score": 0.34482622146606445
+                    },
+                    {
+                        "Description": "Other difficulties with micturition",
+                        "Code": "R39.198",
+                        "Score": 0.2966752052307129
+                    },
+                    {
+                        "Description": "Unspecified viral hepatitis B without hepatic coma",
+                        "Code": "B19.10",
+                        "Score": 0.2943468689918518
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "Text": "urinary tract infection",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.961012601852417,
+                "BeginOffset": 1134,
+                "EndOffset": 1157,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8100974559783936
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.7479018568992615
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Urinary tract infection, site not specified",
+                        "Code": "N39.0",
+                        "Score": 0.8345514535903931
+                    },
+                    {
+                        "Description": "Personal history of urinary (tract) infections",
+                        "Code": "Z87.440",
+                        "Score": 0.6590502858161926
+                    },
+                    {
+                        "Description": "Urinary calculus, unspecified",
+                        "Code": "N20.9",
+                        "Score": 0.613052487373352
+                    },
+                    {
+                        "Description": "Disorder of urinary system, unspecified",
+                        "Code": "N39.9",
+                        "Score": 0.5538468360900879
+                    },
+                    {
+                        "Description": "Urinary tract infection following delivery, unspecified",
+                        "Code": "O86.20",
+                        "Score": 0.5361256003379822
+                    }
+                ]
+            },
+            {
+                "Id": 8,
+                "Text": "ischemia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9871895909309387,
+                "BeginOffset": 1437,
+                "EndOffset": 1445,
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.8907040357589722,
+                        "RelationshipScore": 0.9999983310699463,
+                        "Id": 7,
+                        "BeginOffset": 1431,
+                        "EndOffset": 1436,
+                        "Text": "acute",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7852870225906372
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9338908195495605
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Cerebral ischemia",
+                        "Code": "I67.82",
+                        "Score": 0.7760555744171143
+                    },
+                    {
+                        "Description": "Chronic ischemic heart disease, unspecified",
+                        "Code": "I25.9",
+                        "Score": 0.7467039227485657
+                    },
+                    {
+                        "Description": "Acute ischemic heart disease, unspecified",
+                        "Code": "I24.9",
+                        "Score": 0.666570782661438
+                    },
+                    {
+                        "Description": "Other disorder of circulatory system",
+                        "Code": "I99.8",
+                        "Score": 0.6560141444206238
+                    },
+                    {
+                        "Description": "Ischemia and infarction of kidney",
+                        "Code": "N28.0",
+                        "Score": 0.6086764931678772
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "Text": "vessel ischemic disease",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.7602556347846985,
+                "BeginOffset": 1498,
+                "EndOffset": 1521,
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.9813466668128967,
+                        "RelationshipScore": 0.5955353379249573,
+                        "Id": 9,
+                        "BeginOffset": 1484,
+                        "EndOffset": 1491,
+                        "Text": "chronic",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9125015735626221
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Cerebral ischemia",
+                        "Code": "I67.82",
+                        "Score": 0.8405086398124695
+                    },
+                    {
+                        "Description": "Chronic ischemic heart disease, unspecified",
+                        "Code": "I25.9",
+                        "Score": 0.7421865463256836
+                    },
+                    {
+                        "Description": "Ischemia and infarction of kidney",
+                        "Code": "N28.0",
+                        "Score": 0.6107479929924011
+                    },
+                    {
+                        "Description": "Other disorder of circulatory system",
+                        "Code": "I99.8",
+                        "Score": 0.6019153594970703
+                    },
+                    {
+                        "Description": "Ischemic cardiomyopathy",
+                        "Code": "I25.5",
+                        "Score": 0.5988421440124512
+                    }
+                ]
+            },
+            {
+                "Id": 14,
+                "Text": "infarct",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9768775701522827,
+                "BeginOffset": 1584,
+                "EndOffset": 1591,
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.8757680058479309,
+                        "RelationshipScore": 0.9999816417694092,
+                        "Id": 13,
+                        "BeginOffset": 1578,
+                        "EndOffset": 1583,
+                        "Text": "acute",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.41285908222198486
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5892996191978455
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9367404580116272
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Cerebral infarction, unspecified",
+                        "Code": "I63.9",
+                        "Score": 0.729480504989624
+                    },
+                    {
+                        "Description": "Acute myocardial infarction, unspecified",
+                        "Code": "I21.9",
+                        "Score": 0.6486351490020752
+                    },
+                    {
+                        "Description": "Old myocardial infarction",
+                        "Code": "I25.2",
+                        "Score": 0.5735914707183838
+                    },
+                    {
+                        "Description": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",
+                        "Code": "Z86.73",
+                        "Score": 0.5734097957611084
+                    },
+                    {
+                        "Description": "Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side",
+                        "Code": "I69.351",
+                        "Score": 0.5254125595092773
+                    }
+                ]
+            },
+            {
+                "Id": 15,
+                "Text": "mass effect",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.8774054646492004,
+                "BeginOffset": 1606,
+                "EndOffset": 1617,
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.6321457028388977,
+                        "RelationshipScore": 0.8578734397888184,
+                        "Id": 16,
+                        "BeginOffset": 1621,
+                        "EndOffset": 1628,
+                        "Text": "midline",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.628082811832428
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9229789972305298
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Other specified disorders of brain",
+                        "Code": "G93.89",
+                        "Score": 0.6865909695625305
+                    },
+                    {
+                        "Description": "Compression of brain",
+                        "Code": "G93.5",
+                        "Score": 0.6793967485427856
+                    },
+                    {
+                        "Description": "Hydrocephalus, unspecified",
+                        "Code": "G91.9",
+                        "Score": 0.5514765977859497
+                    },
+                    {
+                        "Description": "Diffuse traumatic brain injury with loss of consciousness of unspecified duration",
+                        "Code": "S06.2X9",
+                        "Score": 0.5269015431404114
+                    },
+                    {
+                        "Description": "Localized swelling, mass and lump, head",
+                        "Code": "R22.0",
+                        "Score": 0.48305225372314453
+                    }
+                ]
+            },
+            {
+                "Id": 18,
+                "Text": "eventration of the right hemidiaphragm",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.33075934648513794,
+                "BeginOffset": 1655,
+                "EndOffset": 1693,
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9878879189491272,
+                        "RelationshipScore": 0.9433119297027588,
+                        "Id": 17,
+                        "BeginOffset": 1636,
+                        "EndOffset": 1641,
+                        "Text": "Chest",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.48039644956588745
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Disorders of diaphragm",
+                        "Code": "J98.6",
+                        "Score": 0.569408118724823
+                    },
+                    {
+                        "Description": "Unspecified atherosclerosis of native arteries of extremities, right leg",
+                        "Code": "I70.201",
+                        "Score": 0.4481668472290039
+                    },
+                    {
+                        "Description": "Personal history of other diseases of the digestive system",
+                        "Code": "Z87.19",
+                        "Score": 0.4435957670211792
+                    },
+                    {
+                        "Description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere",
+                        "Code": "B96.20",
+                        "Score": 0.4286249279975891
+                    },
+                    {
+                        "Description": "Right lower quadrant pain",
+                        "Code": "R10.31",
+                        "Score": 0.417895644903183
+                    }
+                ]
+            },
+            {
+                "Id": 21,
+                "Text": "fatty liver changes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.5266684889793396,
+                "BeginOffset": 1747,
+                "EndOffset": 1766,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.42367103695869446
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.565101683139801
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Fatty (change of) liver, not elsewhere classified",
+                        "Code": "K76.0",
+                        "Score": 0.5945814251899719
+                    },
+                    {
+                        "Description": "Liver disease, unspecified",
+                        "Code": "K76.9",
+                        "Score": 0.3917247951030731
+                    },
+                    {
+                        "Description": "Secondary malignant neoplasm of unspecified lung",
+                        "Code": "C78.00",
+                        "Score": 0.3210711181163788
+                    },
+                    {
+                        "Description": "Localized adiposity",
+                        "Code": "E65",
+                        "Score": 0.3204587399959564
+                    },
+                    {
+                        "Description": "Other nonspecific abnormal finding of lung field",
+                        "Code": "R91.8",
+                        "Score": 0.300865113735199
+                    }
+                ]
+            },
+            {
+                "Id": 23,
+                "Text": "normal gallbladder",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.3619646430015564,
+                "BeginOffset": 1771,
+                "EndOffset": 1789,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.6603720188140869
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5129761099815369
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Disease of gallbladder, unspecified",
+                        "Code": "K82.9",
+                        "Score": 0.5873021483421326
+                    },
+                    {
+                        "Description": "Other specified diseases of gallbladder",
+                        "Code": "K82.8",
+                        "Score": 0.5621684789657593
+                    },
+                    {
+                        "Description": "Calculus of gallbladder without cholecystitis without obstruction",
+                        "Code": "K80.20",
+                        "Score": 0.48784103989601135
+                    },
+                    {
+                        "Description": "Hydrops of gallbladder",
+                        "Code": "K82.1",
+                        "Score": 0.42819976806640625
+                    },
+                    {
+                        "Description": "Cholesterolosis of gallbladder",
+                        "Code": "K82.4",
+                        "Score": 0.40957939624786377
+                    }
+                ]
+            },
+            {
+                "Id": 31,
+                "Text": "adrenal lesions",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.7621504068374634,
+                "BeginOffset": 1942,
+                "EndOffset": 1957,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.8528698682785034
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9684233665466309
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Disorder of the skin and subcutaneous tissue, unspecified",
+                        "Code": "L98.9",
+                        "Score": 0.5628528594970703
+                    },
+                    {
+                        "Description": "Disorder of pigmentation, unspecified",
+                        "Code": "L81.9",
+                        "Score": 0.48233187198638916
+                    },
+                    {
+                        "Description": "Rheumatic mitral valve disease, unspecified",
+                        "Code": "I05.9",
+                        "Score": 0.4541204273700714
+                    },
+                    {
+                        "Description": "Other specified disorders of nose and nasal sinuses",
+                        "Code": "J34.89",
+                        "Score": 0.4443388879299164
+                    },
+                    {
+                        "Description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+                        "Code": "I25.10",
+                        "Score": 0.414741575717926
+                    }
+                ]
+            },
+            {
+                "Id": 33,
+                "Text": "renal calcification",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.8734739422798157,
+                "BeginOffset": 2005,
+                "EndOffset": 2024,
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9761067628860474,
+                        "RelationshipScore": 0.9283513426780701,
+                        "Id": 32,
+                        "BeginOffset": 1963,
+                        "EndOffset": 1970,
+                        "Text": "kidneys",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.8457382321357727
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9616573452949524
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Calculus of kidney",
+                        "Code": "N20.0",
+                        "Score": 0.7676681876182556
+                    },
+                    {
+                        "Description": "Disorder of kidney and ureter, unspecified",
+                        "Code": "N28.9",
+                        "Score": 0.7229803800582886
+                    },
+                    {
+                        "Description": "Unspecified kidney failure",
+                        "Code": "N19",
+                        "Score": 0.6963720321655273
+                    },
+                    {
+                        "Description": "Atherosclerosis of renal artery",
+                        "Code": "I70.1",
+                        "Score": 0.6424219012260437
+                    },
+                    {
+                        "Description": "Occlusion and stenosis of bilateral carotid arteries",
+                        "Code": "I65.23",
+                        "Score": 0.6181080937385559
+                    }
+                ]
+            },
+            {
+                "Id": 34,
+                "Text": "hydronephrosis",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9392692446708679,
+                "BeginOffset": 2044,
+                "EndOffset": 2058,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5981120467185974
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9136163592338562
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Unspecified hydronephrosis",
+                        "Code": "N13.30",
+                        "Score": 0.8810372948646545
+                    },
+                    {
+                        "Description": "Hydronephrosis with renal and ureteral calculous obstruction",
+                        "Code": "N13.2",
+                        "Score": 0.7889534831047058
+                    },
+                    {
+                        "Description": "Hydronephrosis with ureteral stricture, not elsewhere classified",
+                        "Code": "N13.1",
+                        "Score": 0.7444088459014893
+                    },
+                    {
+                        "Description": "Pyonephrosis",
+                        "Code": "N13.6",
+                        "Score": 0.7258438467979431
+                    },
+                    {
+                        "Description": "Congenital hydronephrosis",
+                        "Code": "Q62.0",
+                        "Score": 0.7161094546318054
+                    }
+                ]
+            },
+            {
+                "Id": 35,
+                "Text": "retroperitoneal bleeding",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.7582076787948608,
+                "BeginOffset": 2089,
+                "EndOffset": 2113,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.46764692664146423
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9518846273422241
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Hemorrhage, not elsewhere classified",
+                        "Code": "R58",
+                        "Score": 0.6112542152404785
+                    },
+                    {
+                        "Description": "Other disorders of retroperitoneum",
+                        "Code": "K68.9",
+                        "Score": 0.5550171136856079
+                    },
+                    {
+                        "Description": "Hematuria, unspecified",
+                        "Code": "R31.9",
+                        "Score": 0.5335615277290344
+                    },
+                    {
+                        "Description": "Gastrointestinal hemorrhage, unspecified",
+                        "Code": "K92.2",
+                        "Score": 0.5262463092803955
+                    },
+                    {
+                        "Description": "Postprocedural hemorrhage of a genitourinary system organ or structure following a genitourinary system procedure",
+                        "Code": "N99.820",
+                        "Score": 0.5163542628288269
+                    }
+                ]
+            },
+            {
+                "Id": 38,
+                "Text": "colonic diverticuli",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.6798667907714844,
+                "BeginOffset": 2217,
+                "EndOffset": 2236,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.767859160900116
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Diverticulitis of intestine, part unspecified, without perforation or abscess without bleeding",
+                        "Code": "K57.92",
+                        "Score": 0.6458070278167725
+                    },
+                    {
+                        "Description": "Diverticulosis of large intestine without perforation or abscess without bleeding",
+                        "Code": "K57.30",
+                        "Score": 0.5640013217926025
+                    },
+                    {
+                        "Description": "Benign neoplasm of colon, unspecified",
+                        "Code": "D12.6",
+                        "Score": 0.49953728914260864
+                    },
+                    {
+                        "Description": "Polyp of colon",
+                        "Code": "K63.5",
+                        "Score": 0.4433480501174927
+                    },
+                    {
+                        "Description": "Personal history of colonic polyps",
+                        "Code": "Z86.010",
+                        "Score": 0.4303799867630005
+                    }
+                ]
+            },
+            {
+                "Id": 41,
+                "Text": "diastolic compliance changes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.6914908289909363,
+                "BeginOffset": 2341,
+                "EndOffset": 2369,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.48168957233428955
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.44976183772087097
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Hypertensive heart disease with heart failure",
+                        "Code": "I11.0",
+                        "Score": 0.5480119585990906
+                    },
+                    {
+                        "Description": "Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+                        "Code": "I13.10",
+                        "Score": 0.5285668969154358
+                    },
+                    {
+                        "Description": "Abnormal findings on diagnostic imaging of other parts of musculoskeletal system",
+                        "Code": "R93.7",
+                        "Score": 0.4988958239555359
+                    },
+                    {
+                        "Description": "Unspecified diastolic (congestive) heart failure",
+                        "Code": "I50.30",
+                        "Score": 0.4702771008014679
+                    },
+                    {
+                        "Description": "Chronic diastolic (congestive) heart failure",
+                        "Code": "I50.32",
+                        "Score": 0.44363805651664734
+                    }
+                ]
+            },
+            {
+                "Id": 42,
+                "Text": "valvular flow abnormality",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.7840879559516907,
+                "BeginOffset": 2389,
+                "EndOffset": 2414,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.41498857736587524
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7541766166687012
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Endocarditis, valve unspecified",
+                        "Code": "I38",
+                        "Score": 0.7325358986854553
+                    },
+                    {
+                        "Description": "Abnormal findings on diagnostic imaging of heart and coronary circulation",
+                        "Code": "R93.1",
+                        "Score": 0.6719897389411926
+                    },
+                    {
+                        "Description": "Other nonspecific abnormal finding of lung field",
+                        "Code": "R91.8",
+                        "Score": 0.6429221630096436
+                    },
+                    {
+                        "Description": "Abnormal result of other cardiovascular function study",
+                        "Code": "R94.39",
+                        "Score": 0.6272584199905396
+                    },
+                    {
+                        "Description": "Abnormal electrocardiogram [ECG] [EKG]",
+                        "Code": "R94.31",
+                        "Score": 0.6210958957672119
+                    }
+                ]
+            },
+            {
+                "Id": 43,
+                "Text": "mural thrombi",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.6838693618774414,
+                "BeginOffset": 2435,
+                "EndOffset": 2448,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.5153516530990601
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9440120458602905
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Intracardiac thrombosis, not elsewhere classified",
+                        "Code": "I51.3",
+                        "Score": 0.7290773987770081
+                    },
+                    {
+                        "Description": "Thrombosis due to cardiac prosthetic devices, implants and grafts",
+                        "Code": "T82.867",
+                        "Score": 0.705588698387146
+                    },
+                    {
+                        "Description": "Embolism and thrombosis of unspecified artery",
+                        "Code": "I74.9",
+                        "Score": 0.6963357925415039
+                    },
+                    {
+                        "Description": "Personal history of other venous thrombosis and embolism",
+                        "Code": "Z86.718",
+                        "Score": 0.6209123730659485
+                    },
+                    {
+                        "Description": "Acute embolism and thrombosis of unspecified vein",
+                        "Code": "I82.90",
+                        "Score": 0.6166151165962219
+                    }
+                ]
+            },
+            {
+                "Id": 44,
+                "Text": "vegetations",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.618744432926178,
+                "BeginOffset": 2452,
+                "EndOffset": 2463,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.4077908992767334
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.8412074446678162
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Acute and subacute infective endocarditis",
+                        "Code": "I33.0",
+                        "Score": 0.7158604860305786
+                    },
+                    {
+                        "Description": "Abnormal findings on diagnostic imaging of heart and coronary circulation",
+                        "Code": "R93.1",
+                        "Score": 0.5832479000091553
+                    },
+                    {
+                        "Description": "Disorder of the autonomic nervous system, unspecified",
+                        "Code": "G90.9",
+                        "Score": 0.5097439289093018
+                    },
+                    {
+                        "Description": "Persistent vegetative state",
+                        "Code": "R40.3",
+                        "Score": 0.47739747166633606
+                    },
+                    {
+                        "Description": "Other chronic diseases of tonsils and adenoids",
+                        "Code": "J35.8",
+                        "Score": 0.3530732989311218
+                    }
+                ]
+            }
+        ],
+        "ModelVersion": "0.1.0"
+    }
+}

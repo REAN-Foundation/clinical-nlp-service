@@ -1,0 +1,1201 @@
+{
+    "Results": {
+        "Entities": [
+            {
+                "Id": 0,
+                "BeginOffset": 1,
+                "EndOffset": 5,
+                "Score": 0.968478798866272,
+                "Text": "Head",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 21,
+                "BeginOffset": 1,
+                "EndOffset": 8,
+                "Score": 0.9542784094810486,
+                "Text": "Head CT",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9231469631195068,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 22,
+                        "BeginOffset": 20,
+                        "EndOffset": 53,
+                        "Text": "pituitary mass which is unchanged",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 1,
+                "BeginOffset": 20,
+                "EndOffset": 29,
+                "Score": 0.396808385848999,
+                "Text": "pituitary",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 20,
+                "EndOffset": 34,
+                "Score": 0.9218893051147461,
+                "Text": "pituitary mass",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8730019927024841
+                    }
+                ]
+            },
+            {
+                "Id": 23,
+                "BeginOffset": 72,
+                "EndOffset": 77,
+                "Score": 0.9631175994873047,
+                "Text": "X-ray",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9393923282623291,
+                        "RelationshipScore": 0.9999899864196777,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 24,
+                        "BeginOffset": 103,
+                        "EndOffset": 116,
+                        "Text": "nothing acute",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 85,
+                "EndOffset": 90,
+                "Score": 0.996138870716095,
+                "Text": "chest",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 25,
+                "BeginOffset": 118,
+                "EndOffset": 123,
+                "Score": 0.9790303111076355,
+                "Text": "X-ray",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.978381872177124,
+                        "RelationshipScore": 0.9999997615814209,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 26,
+                        "BeginOffset": 144,
+                        "EndOffset": 160,
+                        "Text": "no acute changes",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.966899573802948,
+                        "RelationshipScore": 0.9999394416809082,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 27,
+                        "BeginOffset": 162,
+                        "EndOffset": 173,
+                        "Text": "No fracture",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9694100022315979,
+                        "RelationshipScore": 0.9999732971191406,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 28,
+                        "BeginOffset": 175,
+                        "EndOffset": 189,
+                        "Text": "No dislocation",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9333128929138184,
+                        "RelationshipScore": 0.9998360872268677,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 29,
+                        "BeginOffset": 191,
+                        "EndOffset": 220,
+                        "Text": "Did have patellar osteophytes",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9796353578567505,
+                        "RelationshipScore": 0.9999915361404419,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 30,
+                        "BeginOffset": 225,
+                        "EndOffset": 248,
+                        "Text": "no large joint effusion",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 131,
+                "EndOffset": 136,
+                "Score": 0.9918935894966125,
+                "Text": "knees",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 9,
+                "BeginOffset": 153,
+                "EndOffset": 160,
+                "Score": 0.40572452545166016,
+                "Text": "changes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.5593841075897217
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.48885899782180786,
+                        "RelationshipScore": 0.8056685328483582,
+                        "RelationshipType": "ACUITY",
+                        "Id": 7,
+                        "BeginOffset": 111,
+                        "EndOffset": 116,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.69500732421875,
+                        "RelationshipScore": 0.9999408721923828,
+                        "RelationshipType": "ACUITY",
+                        "Id": 8,
+                        "BeginOffset": 147,
+                        "EndOffset": 152,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 10,
+                "BeginOffset": 165,
+                "EndOffset": 173,
+                "Score": 0.9929688572883606,
+                "Text": "fracture",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8478574752807617
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9561402201652527
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 178,
+                "EndOffset": 189,
+                "Score": 0.9805663824081421,
+                "Text": "dislocation",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7089034914970398
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9401587843894958
+                    }
+                ]
+            },
+            {
+                "Id": 12,
+                "BeginOffset": 200,
+                "EndOffset": 220,
+                "Score": 0.8392019271850586,
+                "Text": "patellar osteophytes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.6106123924255371
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "BeginOffset": 234,
+                "EndOffset": 239,
+                "Score": 0.9344350099563599,
+                "Text": "joint",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 13,
+                "BeginOffset": 234,
+                "EndOffset": 248,
+                "Score": 0.5882791876792908,
+                "Text": "joint effusion",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.6836532354354858
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.963670015335083
+                    }
+                ]
+            },
+            {
+                "Id": 31,
+                "BeginOffset": 250,
+                "EndOffset": 256,
+                "Score": 0.9784902930259705,
+                "Text": "X-rays",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.688011646270752,
+                        "RelationshipScore": 0.9999933242797852,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 32,
+                        "BeginOffset": 269,
+                        "EndOffset": 295,
+                        "Text": "did not show any fractures",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 5,
+                "BeginOffset": 264,
+                "EndOffset": 268,
+                "Score": 0.9881606101989746,
+                "Text": "hips",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 14,
+                "BeginOffset": 286,
+                "EndOffset": 295,
+                "Score": 0.9835901856422424,
+                "Text": "fractures",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7671641707420349
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9222577810287476
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9881606101989746,
+                        "RelationshipScore": 0.9528650045394897,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 5,
+                        "BeginOffset": 264,
+                        "EndOffset": 268,
+                        "Text": "hips",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 33,
+                "BeginOffset": 297,
+                "EndOffset": 300,
+                "Score": 0.9994767308235168,
+                "Text": "EKG",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9867226481437683,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 34,
+                        "BeginOffset": 308,
+                        "EndOffset": 327,
+                        "Text": "normal sinus rhythm",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9463181495666504,
+                        "RelationshipScore": 0.9999990463256836,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 35,
+                        "BeginOffset": 329,
+                        "EndOffset": 348,
+                        "Text": "80 beats per minute",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8525103330612183,
+                        "RelationshipScore": 0.9999812841415405,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 36,
+                        "BeginOffset": 350,
+                        "EndOffset": 367,
+                        "Text": "baseline artifact",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9513998031616211,
+                        "RelationshipScore": 0.9999986886978149,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 37,
+                        "BeginOffset": 376,
+                        "EndOffset": 398,
+                        "Text": "normal electrical axis",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.32705965638160706,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 38,
+                        "BeginOffset": 400,
+                        "EndOffset": 460,
+                        "Text": "Had Q waves in V1 and V2 suggestive of an old septal infarct",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 15,
+                "BeginOffset": 308,
+                "EndOffset": 327,
+                "Score": 0.43478575348854065,
+                "Text": "normal sinus rhythm",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.8401612043380737
+                    }
+                ]
+            },
+            {
+                "Id": 16,
+                "BeginOffset": 446,
+                "EndOffset": 460,
+                "Score": 0.8029683828353882,
+                "Text": "septal infarct",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8649308681488037
+                    }
+                ]
+            },
+            {
+                "Id": 18,
+                "BeginOffset": 474,
+                "EndOffset": 500,
+                "Score": 0.42426973581314087,
+                "Text": "ST or T wave abnormalities",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.5873652100563049
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7380900382995605
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.921172022819519
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.38847616314888,
+                        "RelationshipScore": 0.9984211921691895,
+                        "RelationshipType": "ACUITY",
+                        "Id": 17,
+                        "BeginOffset": 468,
+                        "EndOffset": 473,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 20,
+                "BeginOffset": 522,
+                "EndOffset": 530,
+                "Score": 0.9937100410461426,
+                "Text": "ischemia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.803711473941803
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9226008653640747
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.38847616314888,
+                        "RelationshipScore": 0.5490960478782654,
+                        "RelationshipType": "ACUITY",
+                        "Id": 17,
+                        "BeginOffset": 468,
+                        "EndOffset": 473,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.9289343357086182,
+                        "RelationshipScore": 0.9999992847442627,
+                        "RelationshipType": "ACUITY",
+                        "Id": 19,
+                        "BeginOffset": 516,
+                        "EndOffset": 521,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    }
+                ]
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.48885899782180786,
+                    "Id": 7,
+                    "BeginOffset": 111,
+                    "EndOffset": 116,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.69500732421875,
+                    "Id": 8,
+                    "BeginOffset": 147,
+                    "EndOffset": 152,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.9652875065803528,
+                    "Id": 39,
+                    "BeginOffset": 465,
+                    "EndOffset": 530,
+                    "Text": "no acute ST or T wave abnormalities to suggest any acute ischemia",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.38847616314888,
+                    "Id": 17,
+                    "BeginOffset": 468,
+                    "EndOffset": 473,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.9289343357086182,
+                    "Id": 19,
+                    "BeginOffset": 516,
+                    "EndOffset": 521,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "1.0.0"
+    },
+    "ProtectedHealthInformation": {
+        "Entities": [],
+        "ModelVersion": "0.0.0"
+    },
+    "RXNorm_identifiers": {
+        "Entities": [],
+        "ModelVersion": "20200504.1.0"
+    },
+    "ICD10CM_identifiers": {
+        "Entities": [
+            {
+                "Id": 1,
+                "Text": "pituitary mass",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9218893051147461,
+                "BeginOffset": 20,
+                "EndOffset": 34,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8730019927024841
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Other nonspecific abnormal finding of lung field",
+                        "Code": "R91.8",
+                        "Score": 0.2859140634536743
+                    },
+                    {
+                        "Description": "Localized swelling, mass and lump, neck",
+                        "Code": "R22.1",
+                        "Score": 0.23504744470119476
+                    },
+                    {
+                        "Description": "Localized swelling, mass and lump, head",
+                        "Code": "R22.0",
+                        "Score": 0.22408147156238556
+                    },
+                    {
+                        "Description": "Localized swelling, mass and lump, trunk",
+                        "Code": "R22.2",
+                        "Score": 0.2077782303094864
+                    },
+                    {
+                        "Description": "Benign lipomatous neoplasm, unspecified",
+                        "Code": "D17.9",
+                        "Score": 0.20068033039569855
+                    }
+                ]
+            },
+            {
+                "Id": 7,
+                "Text": "changes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.40572452545166016,
+                "BeginOffset": 153,
+                "EndOffset": 160,
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.48885899782180786,
+                        "RelationshipScore": 0.8056685328483582,
+                        "Id": 4,
+                        "BeginOffset": 111,
+                        "EndOffset": 116,
+                        "Text": "acute",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.69500732421875,
+                        "RelationshipScore": 0.9999408721923828,
+                        "Id": 6,
+                        "BeginOffset": 147,
+                        "EndOffset": 152,
+                        "Text": "acute",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.5593841075897217
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Other nonspecific abnormal finding of lung field",
+                        "Code": "R91.8",
+                        "Score": 0.6029631495475769
+                    },
+                    {
+                        "Description": "Abnormal findings on diagnostic imaging of other parts of musculoskeletal system",
+                        "Code": "R93.7",
+                        "Score": 0.5791313052177429
+                    },
+                    {
+                        "Description": "Changes in skin texture",
+                        "Code": "R23.4",
+                        "Score": 0.563430905342102
+                    },
+                    {
+                        "Description": "Altered mental status, unspecified",
+                        "Code": "R41.82",
+                        "Score": 0.5468644499778748
+                    },
+                    {
+                        "Description": "Atelectasis",
+                        "Code": "J98.11",
+                        "Score": 0.5158541798591614
+                    }
+                ]
+            },
+            {
+                "Id": 8,
+                "Text": "fracture",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9929688572883606,
+                "BeginOffset": 165,
+                "EndOffset": 173,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8478574752807617
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9561402201652527
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Other injury of unspecified body region",
+                        "Code": "T14.8",
+                        "Score": 0.5016844868659973
+                    },
+                    {
+                        "Description": "Unspecified fracture of left patella",
+                        "Code": "S82.002",
+                        "Score": 0.4622737467288971
+                    },
+                    {
+                        "Description": "Fracture of neck, unspecified",
+                        "Code": "S12.9",
+                        "Score": 0.46182236075401306
+                    },
+                    {
+                        "Description": "Unspecified fracture of left femur",
+                        "Code": "S72.92",
+                        "Score": 0.44820329546928406
+                    },
+                    {
+                        "Description": "Fracture of nasal bones",
+                        "Code": "S02.2",
+                        "Score": 0.4066006541252136
+                    }
+                ]
+            },
+            {
+                "Id": 9,
+                "Text": "dislocation",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9805663824081421,
+                "BeginOffset": 178,
+                "EndOffset": 189,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7089034914970398
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9401587843894958
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Unspecified dislocation of right knee",
+                        "Code": "S83.104",
+                        "Score": 0.5893601179122925
+                    },
+                    {
+                        "Description": "Unspecified dislocation of left patella",
+                        "Code": "S83.005",
+                        "Score": 0.5158841013908386
+                    },
+                    {
+                        "Description": "Unspecified dislocation of unspecified finger",
+                        "Code": "S63.259",
+                        "Score": 0.4979130029678345
+                    },
+                    {
+                        "Description": "Other injury of unspecified body region",
+                        "Code": "T14.8",
+                        "Score": 0.495402455329895
+                    },
+                    {
+                        "Description": "Unspecified dislocation of left hip",
+                        "Code": "S73.005",
+                        "Score": 0.4845582842826843
+                    }
+                ]
+            },
+            {
+                "Id": 10,
+                "Text": "patellar osteophytes",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.8392019271850586,
+                "BeginOffset": 200,
+                "EndOffset": 220,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.6106123924255371
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Osteophyte, vertebrae",
+                        "Code": "M25.78",
+                        "Score": 0.505576491355896
+                    },
+                    {
+                        "Description": "Osteophyte, left elbow",
+                        "Code": "M25.722",
+                        "Score": 0.37206801772117615
+                    },
+                    {
+                        "Description": "Osteophyte, left foot",
+                        "Code": "M25.775",
+                        "Score": 0.34058958292007446
+                    },
+                    {
+                        "Description": "Osteophyte, left hand",
+                        "Code": "M25.742",
+                        "Score": 0.2872087359428406
+                    },
+                    {
+                        "Description": "Osteophyte, unspecified joint",
+                        "Code": "M25.70",
+                        "Score": 0.2825550436973572
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "Text": "joint effusion",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.5882791876792908,
+                "BeginOffset": 234,
+                "EndOffset": 248,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.6836532354354858
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.963670015335083
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Effusion, unspecified joint",
+                        "Code": "M25.40",
+                        "Score": 0.6735418438911438
+                    },
+                    {
+                        "Description": "Effusion, right knee",
+                        "Code": "M25.461",
+                        "Score": 0.6300626993179321
+                    },
+                    {
+                        "Description": "Effusion, left knee",
+                        "Code": "M25.462",
+                        "Score": 0.5914057493209839
+                    },
+                    {
+                        "Description": "Effusion, unspecified knee",
+                        "Code": "M25.469",
+                        "Score": 0.5426294207572937
+                    },
+                    {
+                        "Description": "Effusion, unspecified ankle",
+                        "Code": "M25.473",
+                        "Score": 0.5241475105285645
+                    }
+                ]
+            },
+            {
+                "Id": 14,
+                "Text": "fractures",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9835901856422424,
+                "BeginOffset": 286,
+                "EndOffset": 295,
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9881606101989746,
+                        "RelationshipScore": 0.9528650045394897,
+                        "Id": 13,
+                        "BeginOffset": 264,
+                        "EndOffset": 268,
+                        "Text": "hips",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7671641707420349
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9222577810287476
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Other injury of unspecified body region",
+                        "Code": "T14.8",
+                        "Score": 0.6336514949798584
+                    },
+                    {
+                        "Description": "Fracture of neck, unspecified",
+                        "Code": "S12.9",
+                        "Score": 0.5109105706214905
+                    },
+                    {
+                        "Description": "Injury, unspecified",
+                        "Code": "T14.90",
+                        "Score": 0.4824928939342499
+                    },
+                    {
+                        "Description": "Unspecified fracture of left patella",
+                        "Code": "S82.002",
+                        "Score": 0.46019160747528076
+                    },
+                    {
+                        "Description": "Unspecified fracture of right wrist and hand",
+                        "Code": "S62.91",
+                        "Score": 0.44864422082901
+                    }
+                ]
+            },
+            {
+                "Id": 15,
+                "Text": "normal sinus rhythm",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.43478575348854065,
+                "BeginOffset": 308,
+                "EndOffset": 327,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.8401612043380737
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Cardiac arrhythmia, unspecified",
+                        "Code": "I49.9",
+                        "Score": 0.6799250245094299
+                    },
+                    {
+                        "Description": "Chronic sinusitis, unspecified",
+                        "Code": "J32.9",
+                        "Score": 0.6164387464523315
+                    },
+                    {
+                        "Description": "Sick sinus syndrome",
+                        "Code": "I49.5",
+                        "Score": 0.5798383355140686
+                    },
+                    {
+                        "Description": "Other specified cardiac arrhythmias",
+                        "Code": "I49.8",
+                        "Score": 0.5741950273513794
+                    },
+                    {
+                        "Description": "Bradycardia, unspecified",
+                        "Code": "R00.1",
+                        "Score": 0.5274026393890381
+                    }
+                ]
+            },
+            {
+                "Id": 16,
+                "Text": "septal infarct",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.8029683828353882,
+                "BeginOffset": 446,
+                "EndOffset": 460,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8649308681488037
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Old myocardial infarction",
+                        "Code": "I25.2",
+                        "Score": 0.8086613416671753
+                    },
+                    {
+                        "Description": "Acute myocardial infarction, unspecified",
+                        "Code": "I21.9",
+                        "Score": 0.6944003701210022
+                    },
+                    {
+                        "Description": "Myocardial infarction type 2",
+                        "Code": "I21.A1",
+                        "Score": 0.6424895524978638
+                    },
+                    {
+                        "Description": "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall",
+                        "Code": "I21.19",
+                        "Score": 0.6423060297966003
+                    },
+                    {
+                        "Description": "ST elevation (STEMI) myocardial infarction of unspecified site",
+                        "Code": "I21.3",
+                        "Score": 0.6359301209449768
+                    }
+                ]
+            },
+            {
+                "Id": 18,
+                "Text": "ST or T wave abnormalities",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.42426973581314087,
+                "BeginOffset": 474,
+                "EndOffset": 500,
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.38847616314888,
+                        "RelationshipScore": 0.9984211921691895,
+                        "Id": 17,
+                        "BeginOffset": 468,
+                        "EndOffset": 473,
+                        "Text": "acute",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.5873652100563049
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7380900382995605
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.921172022819519
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Abnormal electrocardiogram [ECG] [EKG]",
+                        "Code": "R94.31",
+                        "Score": 0.848358154296875
+                    },
+                    {
+                        "Description": "Abnormal electroencephalogram [EEG]",
+                        "Code": "R94.01",
+                        "Score": 0.7201080918312073
+                    },
+                    {
+                        "Description": "Abnormal result of other cardiovascular function study",
+                        "Code": "R94.39",
+                        "Score": 0.7036370635032654
+                    },
+                    {
+                        "Description": "Abnormal findings on diagnostic imaging of heart and coronary circulation",
+                        "Code": "R93.1",
+                        "Score": 0.6745153665542603
+                    },
+                    {
+                        "Description": "Abnormal findings on diagnostic imaging of other parts of musculoskeletal system",
+                        "Code": "R93.7",
+                        "Score": 0.6653673052787781
+                    }
+                ]
+            },
+            {
+                "Id": 20,
+                "Text": "ischemia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9937100410461426,
+                "BeginOffset": 522,
+                "EndOffset": 530,
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.38847616314888,
+                        "RelationshipScore": 0.5490960478782654,
+                        "Id": 17,
+                        "BeginOffset": 468,
+                        "EndOffset": 473,
+                        "Text": "acute",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.9289343357086182,
+                        "RelationshipScore": 0.9999992847442627,
+                        "Id": 19,
+                        "BeginOffset": 516,
+                        "EndOffset": 521,
+                        "Text": "acute",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.803711473941803
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9226008653640747
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Chronic ischemic heart disease, unspecified",
+                        "Code": "I25.9",
+                        "Score": 0.8423363566398621
+                    },
+                    {
+                        "Description": "Acute ischemic heart disease, unspecified",
+                        "Code": "I24.9",
+                        "Score": 0.7752637267112732
+                    },
+                    {
+                        "Description": "Other disorder of circulatory system",
+                        "Code": "I99.8",
+                        "Score": 0.7469426393508911
+                    },
+                    {
+                        "Description": "Cerebral ischemia",
+                        "Code": "I67.82",
+                        "Score": 0.7142012119293213
+                    },
+                    {
+                        "Description": "Ischemic cardiomyopathy",
+                        "Code": "I25.5",
+                        "Score": 0.65724116563797
+                    }
+                ]
+            }
+        ],
+        "ModelVersion": "0.1.0"
+    }
+}

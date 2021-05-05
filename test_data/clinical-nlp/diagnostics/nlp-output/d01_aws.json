@@ -1,0 +1,1372 @@
+{
+    "Results": {
+        "Entities": [
+            {
+                "Id": 15,
+                "BeginOffset": 0,
+                "EndOffset": 18,
+                "Score": 0.9123662114143372,
+                "Text": "DIAGNOSTIC STUDIES",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 16,
+                "BeginOffset": 20,
+                "EndOffset": 27,
+                "Score": 0.8750461339950562,
+                "Text": "CT head",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9937908053398132,
+                        "RelationshipScore": 0.9999910593032837,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 17,
+                        "BeginOffset": 34,
+                        "EndOffset": 50,
+                        "Text": "no acute disease",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9411581754684448,
+                        "RelationshipScore": 0.9999315738677979,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 18,
+                        "BeginOffset": 56,
+                        "EndOffset": 99,
+                        "Text": "chronic tiny lacunar basal ganglia infarcts",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9269906282424927,
+                        "RelationshipScore": 0.9999295473098755,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 19,
+                        "BeginOffset": 104,
+                        "EndOffset": 146,
+                        "Text": "small vessel white matter ischemic disease",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 0,
+                "BeginOffset": 23,
+                "EndOffset": 27,
+                "Score": 0.9339200258255005,
+                "Text": "head",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 9,
+                "BeginOffset": 43,
+                "EndOffset": 50,
+                "Score": 0.5232997536659241,
+                "Text": "disease",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.42424118518829346
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.508230447769165
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9339200258255005,
+                        "RelationshipScore": 0.5670558214187622,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 0,
+                        "BeginOffset": 23,
+                        "EndOffset": 27,
+                        "Text": "head",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.6731008887290955,
+                        "RelationshipScore": 0.9999629259109497,
+                        "RelationshipType": "ACUITY",
+                        "Id": 8,
+                        "BeginOffset": 37,
+                        "EndOffset": 42,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 1,
+                "BeginOffset": 69,
+                "EndOffset": 76,
+                "Score": 0.16420982778072357,
+                "Text": "lacunar",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 69,
+                "EndOffset": 99,
+                "Score": 0.6746034026145935,
+                "Text": "lacunar basal ganglia infarcts",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9337419867515564
+                    }
+                ]
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 77,
+                "EndOffset": 90,
+                "Score": 0.2705749571323395,
+                "Text": "basal ganglia",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 104,
+                "EndOffset": 116,
+                "Score": 0.5709540247917175,
+                "Text": "small vessel",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 12,
+                "BeginOffset": 130,
+                "EndOffset": 146,
+                "Score": 0.907379686832428,
+                "Text": "ischemic disease",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8942268490791321
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.16420982778072357,
+                        "RelationshipScore": 0.5628692507743835,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 1,
+                        "BeginOffset": 69,
+                        "EndOffset": 76,
+                        "Text": "lacunar",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5709540247917175,
+                        "RelationshipScore": 0.99952232837677,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 3,
+                        "BeginOffset": 104,
+                        "EndOffset": 116,
+                        "Text": "small vessel",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "BeginOffset": 148,
+                "EndOffset": 153,
+                "Score": 0.9786504507064819,
+                "Text": "Chest",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 20,
+                "BeginOffset": 148,
+                "EndOffset": 159,
+                "Score": 0.960125207901001,
+                "Text": "Chest x-ray",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.44109195470809937,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 21,
+                        "BeginOffset": 163,
+                        "EndOffset": 197,
+                        "Text": "clear with old right rib fractures",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 184,
+                "EndOffset": 187,
+                "Score": 0.9680814743041992,
+                "Text": "rib",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 13,
+                "BeginOffset": 184,
+                "EndOffset": 197,
+                "Score": 0.43677443265914917,
+                "Text": "rib fractures",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9245433211326599
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.9812586903572083,
+                        "RelationshipScore": 0.9981638789176941,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 5,
+                        "BeginOffset": 178,
+                        "EndOffset": 183,
+                        "Text": "right",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 22,
+                "BeginOffset": 205,
+                "EndOffset": 215,
+                "Score": 0.9938633441925049,
+                "Text": "Urinalysis",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9524328112602234,
+                        "RelationshipScore": 0.9999922513961792,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 23,
+                        "BeginOffset": 217,
+                        "EndOffset": 244,
+                        "Text": "Too numerous to count wbc’s",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7024853825569153,
+                        "RelationshipScore": 0.9999340772628784,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 24,
+                        "BeginOffset": 246,
+                        "EndOffset": 276,
+                        "Text": "too numerous to count bacteria",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 26,
+                "BeginOffset": 287,
+                "EndOffset": 295,
+                "Score": 0.9784784317016602,
+                "Text": "nitrites",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9593583345413208,
+                        "RelationshipScore": 0.9999970197677612,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 25,
+                        "BeginOffset": 278,
+                        "EndOffset": 286,
+                        "Text": "positive",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 28,
+                "BeginOffset": 314,
+                "EndOffset": 324,
+                "Score": 0.8724099397659302,
+                "Text": "leukocytes",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7662510275840759,
+                        "RelationshipScore": 0.9999982118606567,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 27,
+                        "BeginOffset": 297,
+                        "EndOffset": 313,
+                        "Text": "largely positive",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 29,
+                "BeginOffset": 326,
+                "EndOffset": 342,
+                "Score": 0.8326730132102966,
+                "Text": "specific gravity",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9928962588310242,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 30,
+                        "BeginOffset": 346,
+                        "EndOffset": 351,
+                        "Text": "1.016",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 31,
+                "BeginOffset": 358,
+                "EndOffset": 365,
+                "Score": 0.6023246645927429,
+                "Text": "protein",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.95968097448349,
+                        "RelationshipScore": 0.999998927116394,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 32,
+                        "BeginOffset": 369,
+                        "EndOffset": 371,
+                        "Text": "30",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 34,
+                "BeginOffset": 376,
+                "EndOffset": 379,
+                "Score": 0.9932141304016113,
+                "Text": "CBC",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 35,
+                "BeginOffset": 386,
+                "EndOffset": 397,
+                "Score": 0.9988277554512024,
+                "Text": "white count",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9997451901435852,
+                        "RelationshipScore": 0.9999920129776001,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 36,
+                        "BeginOffset": 398,
+                        "EndOffset": 401,
+                        "Text": "8.2",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 37,
+                "BeginOffset": 403,
+                "EndOffset": 413,
+                "Score": 0.9975958466529846,
+                "Text": "hemoglobin",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9993859529495239,
+                        "RelationshipScore": 0.9999990463256836,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 38,
+                        "BeginOffset": 414,
+                        "EndOffset": 418,
+                        "Text": "10.8",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 39,
+                "BeginOffset": 420,
+                "EndOffset": 434,
+                "Score": 0.9983532428741455,
+                "Text": "platelet count",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9617378115653992,
+                        "RelationshipScore": 0.9995675683021545,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 40,
+                        "BeginOffset": 435,
+                        "EndOffset": 442,
+                        "Text": "166,000",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 41,
+                "BeginOffset": 448,
+                "EndOffset": 479,
+                "Score": 0.4875412881374359,
+                "Text": "normochromic normocytic indices",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 42,
+                "BeginOffset": 481,
+                "EndOffset": 493,
+                "Score": 0.9835630655288696,
+                "Text": "Differential",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9937773942947388,
+                        "RelationshipScore": 0.9999841451644897,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 43,
+                        "BeginOffset": 494,
+                        "EndOffset": 498,
+                        "Text": "80.6",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 46,
+                "BeginOffset": 505,
+                "EndOffset": 516,
+                "Score": 0.9795575737953186,
+                "Text": "lymphocytes",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9930317401885986,
+                        "RelationshipScore": 0.9862346053123474,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 44,
+                        "BeginOffset": 500,
+                        "EndOffset": 503,
+                        "Text": "9.9",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.9732310175895691,
+                        "RelationshipScore": 0.9984069466590881,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 45,
+                        "BeginOffset": 503,
+                        "EndOffset": 504,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9973207116127014,
+                        "RelationshipScore": 0.907559335231781,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 47,
+                        "BeginOffset": 518,
+                        "EndOffset": 521,
+                        "Text": "9.3",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 49,
+                "BeginOffset": 523,
+                "EndOffset": 532,
+                "Score": 0.9808205366134644,
+                "Text": "monocytes",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9973207116127014,
+                        "RelationshipScore": 0.9969323873519897,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 47,
+                        "BeginOffset": 518,
+                        "EndOffset": 521,
+                        "Text": "9.3",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.9713889360427856,
+                        "RelationshipScore": 0.985280454158783,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 48,
+                        "BeginOffset": 521,
+                        "EndOffset": 522,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9962377548217773,
+                        "RelationshipScore": 0.7773168683052063,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 50,
+                        "BeginOffset": 534,
+                        "EndOffset": 537,
+                        "Text": "0.1",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 52,
+                "BeginOffset": 539,
+                "EndOffset": 550,
+                "Score": 0.9874682426452637,
+                "Text": "eosinophils",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9962377548217773,
+                        "RelationshipScore": 0.9442869424819946,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 50,
+                        "BeginOffset": 534,
+                        "EndOffset": 537,
+                        "Text": "0.1",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.9673802852630615,
+                        "RelationshipScore": 0.9075502753257751,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 51,
+                        "BeginOffset": 537,
+                        "EndOffset": 538,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9952560067176819,
+                        "RelationshipScore": 0.990912914276123,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 53,
+                        "BeginOffset": 555,
+                        "EndOffset": 558,
+                        "Text": "0.1",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.9639971852302551,
+                        "RelationshipScore": 0.9474700689315796,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 54,
+                        "BeginOffset": 558,
+                        "EndOffset": 559,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 55,
+                "BeginOffset": 560,
+                "EndOffset": 569,
+                "Score": 0.9496092796325684,
+                "Text": "basophils",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9952560067176819,
+                        "RelationshipScore": 0.9998922348022461,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 53,
+                        "BeginOffset": 555,
+                        "EndOffset": 558,
+                        "Text": "0.1",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.9639971852302551,
+                        "RelationshipScore": 0.9999991655349731,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 54,
+                        "BeginOffset": 558,
+                        "EndOffset": 559,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 56,
+                "BeginOffset": 581,
+                "EndOffset": 593,
+                "Score": 0.8693407773971558,
+                "Text": "coagulations",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9567029476165771,
+                        "RelationshipScore": 0.9991974234580994,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 57,
+                        "BeginOffset": 610,
+                        "EndOffset": 617,
+                        "Text": "pending",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 58,
+                "BeginOffset": 623,
+                "EndOffset": 635,
+                "Score": 0.7231576442718506,
+                "Text": "hyponatremia",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 14,
+                "BeginOffset": 623,
+                "EndOffset": 635,
+                "Score": 0.6484895348548889,
+                "Text": "hyponatremia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.48210230469703674
+                    }
+                ]
+            },
+            {
+                "Id": 59,
+                "BeginOffset": 641,
+                "EndOffset": 647,
+                "Score": 0.9992479681968689,
+                "Text": "sodium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9988479614257812,
+                        "RelationshipScore": 0.9999644756317139,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 60,
+                        "BeginOffset": 651,
+                        "EndOffset": 654,
+                        "Text": "126",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 61,
+                "BeginOffset": 656,
+                "EndOffset": 665,
+                "Score": 0.9999380111694336,
+                "Text": "potassium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9998987913131714,
+                        "RelationshipScore": 0.9999885559082031,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 62,
+                        "BeginOffset": 666,
+                        "EndOffset": 669,
+                        "Text": "4.6",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 63,
+                "BeginOffset": 671,
+                "EndOffset": 679,
+                "Score": 0.9998359680175781,
+                "Text": "chloride",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9997859597206116,
+                        "RelationshipScore": 0.9999256134033203,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 64,
+                        "BeginOffset": 680,
+                        "EndOffset": 682,
+                        "Text": "98",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 65,
+                "BeginOffset": 684,
+                "EndOffset": 687,
+                "Score": 0.9997144341468811,
+                "Text": "CO2",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9996688365936279,
+                        "RelationshipScore": 0.9999971389770508,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 66,
+                        "BeginOffset": 691,
+                        "EndOffset": 693,
+                        "Text": "22",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 67,
+                "BeginOffset": 695,
+                "EndOffset": 698,
+                "Score": 0.9999475479125977,
+                "Text": "BUN",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9999308586120605,
+                        "RelationshipScore": 0.9999992847442627,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 68,
+                        "BeginOffset": 699,
+                        "EndOffset": 701,
+                        "Text": "38",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 69,
+                "BeginOffset": 703,
+                "EndOffset": 713,
+                "Score": 0.9999419450759888,
+                "Text": "creatinine",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9999679327011108,
+                        "RelationshipScore": 0.9999997615814209,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 70,
+                        "BeginOffset": 714,
+                        "EndOffset": 717,
+                        "Text": "1.6",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 71,
+                "BeginOffset": 719,
+                "EndOffset": 726,
+                "Score": 0.9993683695793152,
+                "Text": "glucose",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9997281432151794,
+                        "RelationshipScore": 0.9999886751174927,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 72,
+                        "BeginOffset": 727,
+                        "EndOffset": 730,
+                        "Text": "148",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 73,
+                "BeginOffset": 732,
+                "EndOffset": 739,
+                "Score": 0.9995866417884827,
+                "Text": "calcium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9991263747215271,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 74,
+                        "BeginOffset": 740,
+                        "EndOffset": 743,
+                        "Text": "9.6",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 75,
+                "BeginOffset": 748,
+                "EndOffset": 755,
+                "Score": 0.9992089867591858,
+                "Text": "albumin",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9995844960212708,
+                        "RelationshipScore": 0.9999876022338867,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 76,
+                        "BeginOffset": 756,
+                        "EndOffset": 759,
+                        "Text": "2.8",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 7,
+                "BeginOffset": 761,
+                "EndOffset": 766,
+                "Score": 0.3227579891681671,
+                "Text": "Liver",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 77,
+                "BeginOffset": 761,
+                "EndOffset": 774,
+                "Score": 0.9982913136482239,
+                "Text": "Liver enzymes",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.994993269443512,
+                        "RelationshipScore": 0.999995231628418,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 78,
+                        "BeginOffset": 775,
+                        "EndOffset": 781,
+                        "Text": "normal",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 79,
+                "BeginOffset": 783,
+                "EndOffset": 797,
+                "Score": 0.9976782202720642,
+                "Text": "Blood cultures",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 80,
+                "BeginOffset": 821,
+                "EndOffset": 834,
+                "Score": 0.9927277565002441,
+                "Text": "urine culture",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.6731008887290955,
+                    "Id": 8,
+                    "BeginOffset": 37,
+                    "EndOffset": 42,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.961212158203125,
+                    "Id": 10,
+                    "BeginOffset": 56,
+                    "EndOffset": 63,
+                    "Text": "chronic",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.9812586903572083,
+                    "Id": 5,
+                    "BeginOffset": 178,
+                    "EndOffset": 183,
+                    "Text": "right",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_UNIT",
+                    "Score": 0.5181103348731995,
+                    "Id": 33,
+                    "BeginOffset": 372,
+                    "EndOffset": 375,
+                    "Text": "mg.",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "1.0.0"
+    },
+    "ProtectedHealthInformation": {
+        "Entities": [],
+        "ModelVersion": "0.0.0"
+    },
+    "RXNorm_identifiers": {
+        "Entities": [],
+        "ModelVersion": "20200504.1.0"
+    },
+    "ICD10CM_identifiers": {
+        "Entities": [
+            {
+                "Id": 2,
+                "Text": "disease",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.5232997536659241,
+                "BeginOffset": 43,
+                "EndOffset": 50,
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9339200258255005,
+                        "RelationshipScore": 0.5670558214187622,
+                        "Id": 0,
+                        "BeginOffset": 23,
+                        "EndOffset": 27,
+                        "Text": "head",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.6731008887290955,
+                        "RelationshipScore": 0.9999629259109497,
+                        "Id": 1,
+                        "BeginOffset": 37,
+                        "EndOffset": 42,
+                        "Text": "acute",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.42424118518829346
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.508230447769165
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Illness, unspecified",
+                        "Code": "R69",
+                        "Score": 0.7129783034324646
+                    },
+                    {
+                        "Description": "Other disorders of lung",
+                        "Code": "J98.4",
+                        "Score": 0.6739867329597473
+                    },
+                    {
+                        "Description": "Hypertensive heart disease with heart failure",
+                        "Code": "I11.0",
+                        "Score": 0.660683274269104
+                    },
+                    {
+                        "Description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+                        "Code": "I25.10",
+                        "Score": 0.6357712745666504
+                    },
+                    {
+                        "Description": "Heart disease, unspecified",
+                        "Code": "I51.9",
+                        "Score": 0.6167056560516357
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "Text": "lacunar basal ganglia infarcts",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.6746034026145935,
+                "BeginOffset": 69,
+                "EndOffset": 99,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9337419867515564
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Other cerebral infarction due to occlusion or stenosis of small artery",
+                        "Code": "I63.81",
+                        "Score": 0.2136119306087494
+                    },
+                    {
+                        "Description": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",
+                        "Code": "Z86.73",
+                        "Score": 0.18467390537261963
+                    },
+                    {
+                        "Description": "ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall",
+                        "Code": "I21.09",
+                        "Score": 0.15326613187789917
+                    },
+                    {
+                        "Description": "Other placental disorders, third trimester",
+                        "Code": "O43.893",
+                        "Score": 0.14584141969680786
+                    },
+                    {
+                        "Description": "Other cerebral infarction",
+                        "Code": "I63.89",
+                        "Score": 0.14315421879291534
+                    }
+                ]
+            },
+            {
+                "Id": 8,
+                "Text": "ischemic disease",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.907379686832428,
+                "BeginOffset": 130,
+                "EndOffset": 146,
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.16420982778072357,
+                        "RelationshipScore": 0.5628692507743835,
+                        "Id": 5,
+                        "BeginOffset": 69,
+                        "EndOffset": 76,
+                        "Text": "lacunar",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5709540247917175,
+                        "RelationshipScore": 0.99952232837677,
+                        "Id": 7,
+                        "BeginOffset": 104,
+                        "EndOffset": 116,
+                        "Text": "small vessel",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8942268490791321
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Chronic ischemic heart disease, unspecified",
+                        "Code": "I25.9",
+                        "Score": 0.32651659846305847
+                    },
+                    {
+                        "Description": "Other disorder of circulatory system",
+                        "Code": "I99.8",
+                        "Score": 0.31240925192832947
+                    },
+                    {
+                        "Description": "Other disorders of lung",
+                        "Code": "J98.4",
+                        "Score": 0.29969561100006104
+                    },
+                    {
+                        "Description": "Illness, unspecified",
+                        "Code": "R69",
+                        "Score": 0.24879632890224457
+                    },
+                    {
+                        "Description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+                        "Code": "I25.10",
+                        "Score": 0.24681560695171356
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "Text": "rib fractures",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.43677443265914917,
+                "BeginOffset": 184,
+                "EndOffset": 197,
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.9812586903572083,
+                        "RelationshipScore": 0.9981638789176941,
+                        "Id": 10,
+                        "BeginOffset": 178,
+                        "EndOffset": 183,
+                        "Text": "right",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9245433211326599
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Multiple fractures of ribs, unspecified side",
+                        "Code": "S22.49",
+                        "Score": 0.20659218728542328
+                    },
+                    {
+                        "Description": "Pleurodynia",
+                        "Code": "R07.81",
+                        "Score": 0.130497008562088
+                    },
+                    {
+                        "Description": "Fracture of one rib, unspecified side",
+                        "Code": "S22.39",
+                        "Score": 0.12962347269058228
+                    },
+                    {
+                        "Description": "Other congenital malformations of ribs",
+                        "Code": "Q76.6",
+                        "Score": 0.12724164128303528
+                    },
+                    {
+                        "Description": "Unspecified fracture of right forearm",
+                        "Code": "S52.91",
+                        "Score": 0.09006164968013763
+                    }
+                ]
+            },
+            {
+                "Id": 13,
+                "Text": "hyponatremia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.6484895348548889,
+                "BeginOffset": 623,
+                "EndOffset": 635,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.48210230469703674
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Hypo-osmolality and hyponatremia",
+                        "Code": "E87.1",
+                        "Score": 0.7041985988616943
+                    },
+                    {
+                        "Description": "Hyperosmolality and hypernatremia",
+                        "Code": "E87.0",
+                        "Score": 0.4397648572921753
+                    },
+                    {
+                        "Description": "Hyponatremia of newborn",
+                        "Code": "P74.22",
+                        "Score": 0.28593334555625916
+                    },
+                    {
+                        "Description": "Hypernatremia of newborn",
+                        "Code": "P74.21",
+                        "Score": 0.1675001084804535
+                    }
+                ]
+            }
+        ],
+        "ModelVersion": "0.1.0"
+    }
+}

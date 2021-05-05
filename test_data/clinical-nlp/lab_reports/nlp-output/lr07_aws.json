@@ -1,0 +1,564 @@
+{
+    "Results": {
+        "Entities": [
+            {
+                "Id": 9,
+                "BeginOffset": 0,
+                "EndOffset": 3,
+                "Score": 0.9902688264846802,
+                "Text": "HCG",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9972879886627197,
+                        "RelationshipScore": 0.9999974966049194,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 10,
+                        "BeginOffset": 8,
+                        "EndOffset": 12,
+                        "Text": "3820",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 14,
+                "EndOffset": 24,
+                "Score": 0.995147168636322,
+                "Text": "Hemoglobin",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.998945415019989,
+                        "RelationshipScore": 0.9999996423721313,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 12,
+                        "BeginOffset": 29,
+                        "EndOffset": 33,
+                        "Text": "11.6",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 13,
+                "BeginOffset": 35,
+                "EndOffset": 57,
+                "Score": 0.9794362187385559,
+                "Text": "Clean-catch urinalysis",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9896056652069092,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 14,
+                        "BeginOffset": 65,
+                        "EndOffset": 92,
+                        "Text": "moderate leukocyte esterase",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8524206876754761,
+                        "RelationshipScore": 0.9999779462814331,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 15,
+                        "BeginOffset": 94,
+                        "EndOffset": 133,
+                        "Text": "too numerous to count white blood cells",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8231702446937561,
+                        "RelationshipScore": 0.9997280240058899,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 16,
+                        "BeginOffset": 138,
+                        "EndOffset": 150,
+                        "Text": "few bacteria",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 17,
+                "BeginOffset": 152,
+                "EndOffset": 175,
+                "Score": 0.9940962791442871,
+                "Text": "Transvaginal ultrasound",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.990882396697998,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 18,
+                        "BeginOffset": 183,
+                        "EndOffset": 200,
+                        "Text": "no adnexal masses",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9811744689941406,
+                        "RelationshipScore": 0.9999996423721313,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 19,
+                        "BeginOffset": 202,
+                        "EndOffset": 233,
+                        "Text": "no free fluid in the cul-de-sac",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7933900356292725,
+                        "RelationshipScore": 0.9999996423721313,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 20,
+                        "BeginOffset": 235,
+                        "EndOffset": 284,
+                        "Text": "1.3 cm fluid collection in the endometrial cavity",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8983672261238098,
+                        "RelationshipScore": 0.9999970197677612,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 21,
+                        "BeginOffset": 290,
+                        "EndOffset": 317,
+                        "Text": "no yolk sac or a fetal pole",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 5,
+                "BeginOffset": 186,
+                "EndOffset": 200,
+                "Score": 0.8300740718841553,
+                "Text": "adnexal masses",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.4570155739784241
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5489320158958435
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9485557675361633
+                    }
+                ]
+            },
+            {
+                "Id": 0,
+                "BeginOffset": 223,
+                "EndOffset": 233,
+                "Score": 0.9635404348373413,
+                "Text": "cul-de-sac",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 1,
+                "BeginOffset": 266,
+                "EndOffset": 284,
+                "Score": 0.9939286708831787,
+                "Text": "endometrial cavity",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 293,
+                "EndOffset": 301,
+                "Score": 0.8732367157936096,
+                "Text": "yolk sac",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 307,
+                "EndOffset": 317,
+                "Score": 0.850653350353241,
+                "Text": "fetal pole",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 360,
+                "EndOffset": 382,
+                "Score": 0.4550331234931946,
+                "Text": "intrauterine pregnancy",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9055929780006409
+                    }
+                ]
+            },
+            {
+                "Id": 7,
+                "BeginOffset": 413,
+                "EndOffset": 430,
+                "Score": 0.7542030811309814,
+                "Text": "ectopic pregnancy",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8309175372123718
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.5387975573539734
+                    }
+                ]
+            },
+            {
+                "Id": 8,
+                "BeginOffset": 444,
+                "EndOffset": 450,
+                "Score": 0.9566277861595154,
+                "Text": "masses",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.5592858791351318
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.45973777770996094
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9338779449462891
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9466232657432556,
+                        "RelationshipScore": 0.9988313317298889,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 4,
+                        "BeginOffset": 468,
+                        "EndOffset": 474,
+                        "Text": "adnexa",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "BeginOffset": 468,
+                "EndOffset": 474,
+                "Score": 0.9466232657432556,
+                "Text": "adnexa",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.4259777367115021,
+                    "Id": 22,
+                    "BeginOffset": 354,
+                    "EndOffset": 382,
+                    "Text": "early intrauterine pregnancy",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.4473113715648651,
+                    "Id": 23,
+                    "BeginOffset": 387,
+                    "EndOffset": 430,
+                    "Text": "cannot definitely exclude ectopic pregnancy",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.8918715715408325,
+                    "Id": 24,
+                    "BeginOffset": 441,
+                    "EndOffset": 474,
+                    "Text": "no masses were seen in the adnexa",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "1.0.0"
+    },
+    "ProtectedHealthInformation": {
+        "Entities": [],
+        "ModelVersion": "0.0.0"
+    },
+    "RXNorm_identifiers": {
+        "Entities": [],
+        "ModelVersion": "20200504.1.0"
+    },
+    "ICD10CM_identifiers": {
+        "Entities": [
+            {
+                "Id": 0,
+                "Text": "adnexal masses",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.8300740718841553,
+                "BeginOffset": 186,
+                "EndOffset": 200,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.4570155739784241
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5489320158958435
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9485557675361633
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Other intra-abdominal and pelvic swelling, mass and lump",
+                        "Code": "R19.09",
+                        "Score": 0.5254762172698975
+                    },
+                    {
+                        "Description": "Intra-abdominal and pelvic swelling, mass and lump, unspecified site",
+                        "Code": "R19.00",
+                        "Score": 0.47624436020851135
+                    },
+                    {
+                        "Description": "Other specified disorders of kidney and ureter",
+                        "Code": "N28.89",
+                        "Score": 0.38690465688705444
+                    },
+                    {
+                        "Description": "Body mass index (BMI) 33.0-33.9, adult",
+                        "Code": "Z68.33",
+                        "Score": 0.29731351137161255
+                    },
+                    {
+                        "Description": "Localized swelling, mass and lump, neck",
+                        "Code": "R22.1",
+                        "Score": 0.28734028339385986
+                    }
+                ]
+            },
+            {
+                "Id": 5,
+                "Text": "intrauterine pregnancy",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.4550331234931946,
+                "BeginOffset": 360,
+                "EndOffset": 382,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9055929780006409
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Pregnant state, incidental",
+                        "Code": "Z33.1",
+                        "Score": 0.4406402111053467
+                    },
+                    {
+                        "Description": "Personal history of other complications of pregnancy, childbirth and the puerperium",
+                        "Code": "Z87.59",
+                        "Score": 0.4405450224876404
+                    },
+                    {
+                        "Description": "Anemia complicating pregnancy, second trimester",
+                        "Code": "O99.012",
+                        "Score": 0.32360291481018066
+                    },
+                    {
+                        "Description": "Abdominal pregnancy with intrauterine pregnancy",
+                        "Code": "O00.01",
+                        "Score": 0.3065006732940674
+                    },
+                    {
+                        "Description": "29 weeks gestation of pregnancy",
+                        "Code": "Z3A.29",
+                        "Score": 0.3008885979652405
+                    }
+                ]
+            },
+            {
+                "Id": 6,
+                "Text": "ectopic pregnancy",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.7542030811309814,
+                "BeginOffset": 413,
+                "EndOffset": 430,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.8309175372123718
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.5387975573539734
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Personal history of other complications of pregnancy, childbirth and the puerperium",
+                        "Code": "Z87.59",
+                        "Score": 0.5485438704490662
+                    },
+                    {
+                        "Description": "Unspecified ectopic pregnancy without intrauterine pregnancy",
+                        "Code": "O00.90",
+                        "Score": 0.40492549538612366
+                    },
+                    {
+                        "Description": "Severe pre-eclampsia, third trimester",
+                        "Code": "O14.13",
+                        "Score": 0.3946220874786377
+                    },
+                    {
+                        "Description": "Ectopic testis, unspecified",
+                        "Code": "Q53.00",
+                        "Score": 0.35890570282936096
+                    },
+                    {
+                        "Description": "Unspecified pre-eclampsia",
+                        "Code": "O14.9",
+                        "Score": 0.3519038259983063
+                    }
+                ]
+            },
+            {
+                "Id": 7,
+                "Text": "masses",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9566277861595154,
+                "BeginOffset": 444,
+                "EndOffset": 450,
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.9466232657432556,
+                        "RelationshipScore": 0.9988313317298889,
+                        "Id": 8,
+                        "BeginOffset": 468,
+                        "EndOffset": 474,
+                        "Text": "adnexa",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.5592858791351318
+                    },
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.45973777770996094
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9338779449462891
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Intra-abdominal and pelvic swelling, mass and lump, unspecified site",
+                        "Code": "R19.00",
+                        "Score": 0.509976863861084
+                    },
+                    {
+                        "Description": "Localized swelling, mass and lump, neck",
+                        "Code": "R22.1",
+                        "Score": 0.4466637969017029
+                    },
+                    {
+                        "Description": "Localized swelling, mass and lump, head",
+                        "Code": "R22.0",
+                        "Score": 0.35272079706192017
+                    },
+                    {
+                        "Description": "Heart disease, unspecified",
+                        "Code": "I51.9",
+                        "Score": 0.34786689281463623
+                    },
+                    {
+                        "Description": "Other nonspecific abnormal finding of lung field",
+                        "Code": "R91.8",
+                        "Score": 0.34657517075538635
+                    }
+                ]
+            }
+        ],
+        "ModelVersion": "0.1.0"
+    }
+}

@@ -1,0 +1,1775 @@
+{
+    "entityMentions": [
+        {
+            "mentionId": "1",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "Chest"
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0817096"
+                }
+            ],
+            "confidence": 0.9979347586631775
+        },
+        {
+            "mentionId": "2",
+            "type": "PROCEDURE",
+            "text": {
+                "content": "x-ray",
+                "beginOffset": 6
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0039985"
+                },
+                {
+                    "entityId": "UMLS/C0043299"
+                },
+                {
+                    "entityId": "UMLS/C1306645"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.6892786026000977
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.999995231628418
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999921321868896
+            },
+            "confidence": 0.9992749691009521
+        },
+        {
+            "mentionId": "3",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "right lower lobe",
+                "beginOffset": 36
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1261075"
+                },
+                {
+                    "entityId": "UMLS/C0225758"
+                },
+                {
+                    "entityId": "UMLS/C0796494"
+                },
+                {
+                    "entityId": "UMLS/C0205090"
+                },
+                {
+                    "entityId": "UMLS/C0444532"
+                }
+            ],
+            "confidence": 0.9987350702285767
+        },
+        {
+            "mentionId": "4",
+            "type": "PROBLEM",
+            "text": {
+                "content": "infiltrate",
+                "beginOffset": 53
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0332448"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9962767362594604
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999897480010986
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 1
+            },
+            "confidence": 0.9936921000480652
+        },
+        {
+            "mentionId": "5",
+            "type": "PROBLEM",
+            "text": {
+                "content": "infiltrate",
+                "beginOffset": 78
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0332448"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9798061847686768
+            },
+            "certaintyAssessment": {
+                "value": "SOMEWHAT_LIKELY",
+                "confidence": 0.6832738518714905
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 1
+            },
+            "confidence": 0.9597610235214233
+        },
+        {
+            "mentionId": "6",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "left lower lobe",
+                "beginOffset": 92
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1261077"
+                },
+                {
+                    "entityId": "UMLS/C0225758"
+                },
+                {
+                    "entityId": "UMLS/C0796494"
+                },
+                {
+                    "entityId": "UMLS/C0441994"
+                },
+                {
+                    "entityId": "UMLS/C0443246"
+                }
+            ],
+            "confidence": 0.9983874559402466
+        },
+        {
+            "mentionId": "7",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "CMP",
+                "beginOffset": 109
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0519825"
+                },
+                {
+                    "entityId": "UMLS/C1417041"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9960216879844666
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999890923500061
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999731183052063
+            },
+            "confidence": 0.9997361898422241
+        },
+        {
+            "mentionId": "8",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "sodium",
+                "beginOffset": 120
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0337443"
+                },
+                {
+                    "entityId": "UMLS/C0037473"
+                },
+                {
+                    "entityId": "UMLS/C3714642"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9992790818214417
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999916553497314
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999696016311646
+            },
+            "confidence": 0.9994103908538818
+        },
+        {
+            "mentionId": "9",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "138",
+                "beginOffset": 127
+            },
+            "confidence": 0.9998053312301636
+        },
+        {
+            "mentionId": "10",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "potassium",
+                "beginOffset": 132
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0032821"
+                },
+                {
+                    "entityId": "UMLS/C3714637"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9980628490447998
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9980902671813965
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.999997079372406
+            },
+            "confidence": 0.9998813271522522
+        },
+        {
+            "mentionId": "11",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "3.7",
+                "beginOffset": 142
+            },
+            "confidence": 0.9998019337654114
+        },
+        {
+            "mentionId": "12",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "chloride",
+                "beginOffset": 147
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0596019"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9997140169143677
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999527335166931
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999679327011108
+            },
+            "confidence": 0.9999024868011475
+        },
+        {
+            "mentionId": "13",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "100",
+                "beginOffset": 156
+            },
+            "confidence": 0.9997820854187012
+        },
+        {
+            "mentionId": "14",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "bicarbonate",
+                "beginOffset": 161
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C2722820"
+                },
+                {
+                    "entityId": "UMLS/C0005367"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9998858571052551
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999825954437256
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999877214431763
+            },
+            "confidence": 0.999896764755249
+        },
+        {
+            "mentionId": "15",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "21",
+                "beginOffset": 173
+            },
+            "confidence": 0.9997649788856506
+        },
+        {
+            "mentionId": "16",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "BUN",
+                "beginOffset": 177
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0005845"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9996652603149414
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999304413795471
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9995964765548706
+            },
+            "confidence": 0.9999047517776489
+        },
+        {
+            "mentionId": "17",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "10",
+                "beginOffset": 181
+            },
+            "confidence": 0.9997965693473816
+        },
+        {
+            "mentionId": "18",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "creatinine",
+                "beginOffset": 185
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0201975"
+                },
+                {
+                    "entityId": "UMLS/C0010294"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9998658299446106
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999414682388306
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999997615814209
+            },
+            "confidence": 0.9998875260353088
+        },
+        {
+            "mentionId": "19",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "0.7",
+                "beginOffset": 196
+            },
+            "confidence": 0.9997243881225586
+        },
+        {
+            "mentionId": "20",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "blood glucose",
+                "beginOffset": 205
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0337438"
+                },
+                {
+                    "entityId": "UMLS/C0017725"
+                },
+                {
+                    "entityId": "UMLS/C0229664"
+                },
+                {
+                    "entityId": "UMLS/C0005768"
+                },
+                {
+                    "entityId": "UMLS/C0005767"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9999197721481323
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999854564666748
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999923706054688
+            },
+            "confidence": 0.999718964099884
+        },
+        {
+            "mentionId": "21",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "242",
+                "beginOffset": 222
+            },
+            "confidence": 0.9997514486312866
+        },
+        {
+            "mentionId": "22",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "CBC",
+                "beginOffset": 231
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0009555"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9991968870162964
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999231100082397
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.999975323677063
+            },
+            "confidence": 0.9995639324188232
+        },
+        {
+            "mentionId": "23",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "white blood cell count",
+                "beginOffset": 242
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0023508"
+                },
+                {
+                    "entityId": "UMLS/C0005771"
+                },
+                {
+                    "entityId": "UMLS/C0009555"
+                },
+                {
+                    "entityId": "UMLS/C0007584"
+                },
+                {
+                    "entityId": "UMLS/C0023516"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9999704957008362
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.999997615814209
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999985694885254
+            },
+            "confidence": 0.9994159936904907
+        },
+        {
+            "mentionId": "24",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "13,900",
+                "beginOffset": 268
+            },
+            "confidence": 0.9991087913513184
+        },
+        {
+            "mentionId": "25",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "hemoglobin",
+                "beginOffset": 276
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0019046"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9999655485153198
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999936819076538
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999997019767761
+            },
+            "confidence": 0.9998208284378052
+        },
+        {
+            "mentionId": "26",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "13.1",
+                "beginOffset": 287
+            },
+            "confidence": 0.9994474053382874
+        },
+        {
+            "mentionId": "27",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "hematocrit",
+                "beginOffset": 293
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0018935"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9998924732208252
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999256134033203
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 1
+            },
+            "confidence": 0.9998593330383301
+        },
+        {
+            "mentionId": "28",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "39.6",
+                "beginOffset": 307
+            },
+            "confidence": 0.9993271827697754
+        },
+        {
+            "mentionId": "29",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "platelets",
+                "beginOffset": 317
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0005821"
+                },
+                {
+                    "entityId": "UMLS/C0443116"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9988933801651001
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9995890855789185
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999876022338867
+            },
+            "confidence": 0.9998828768730164
+        },
+        {
+            "mentionId": "30",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "235,000",
+                "beginOffset": 330
+            },
+            "confidence": 0.9927114248275757
+        },
+        {
+            "mentionId": "31",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "poly count",
+                "beginOffset": 343
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.999351441860199
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9997877478599548
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999837875366211
+            },
+            "confidence": 0.9995484352111816
+        },
+        {
+            "mentionId": "32",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "90.5",
+                "beginOffset": 358
+            },
+            "confidence": 0.9980919361114502
+        },
+        {
+            "mentionId": "33",
+            "type": "LAB_UNIT",
+            "text": {
+                "content": "%",
+                "beginOffset": 362
+            },
+            "confidence": 0.9959274530410767
+        },
+        {
+            "mentionId": "34",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "lymphocytes",
+                "beginOffset": 372
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0024264"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9998162388801575
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.999987006187439
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999973177909851
+            },
+            "confidence": 0.9998536109924316
+        },
+        {
+            "mentionId": "35",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "6.4",
+                "beginOffset": 389
+            },
+            "confidence": 0.997210681438446
+        },
+        {
+            "mentionId": "36",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "amylase",
+                "beginOffset": 414
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0002712"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9946211576461792
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9994800686836243
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999421834945679
+            },
+            "confidence": 0.9974022507667542
+        },
+        {
+            "mentionId": "37",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "75",
+                "beginOffset": 426
+            },
+            "confidence": 0.9992199540138245
+        },
+        {
+            "mentionId": "38",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "lipase",
+                "beginOffset": 433
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0023764"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9973444938659668
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.999611496925354
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9998739957809448
+            },
+            "confidence": 0.9997679591178894
+        },
+        {
+            "mentionId": "39",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "28",
+                "beginOffset": 440
+            },
+            "confidence": 0.9989058971405029
+        },
+        {
+            "mentionId": "40",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "Albumin",
+                "beginOffset": 444
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0001924"
+                },
+                {
+                    "entityId": "UMLS/C1412332"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9993568658828735
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9998847246170044
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999897480010986
+            },
+            "confidence": 0.9998473525047302
+        },
+        {
+            "mentionId": "41",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "4.3",
+                "beginOffset": 452
+            },
+            "confidence": 0.9993689060211182
+        },
+        {
+            "mentionId": "42",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "Calcium",
+                "beginOffset": 457
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0006675"
+                },
+                {
+                    "entityId": "UMLS/C0064990"
+                },
+                {
+                    "entityId": "UMLS/C3714611"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9998396039009094
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999823570251465
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999877214431763
+            },
+            "confidence": 0.9991534352302551
+        },
+        {
+            "mentionId": "43",
+            "type": "LAB_VALUE",
+            "text": {
+                "content": "9.3",
+                "beginOffset": 465
+            },
+            "confidence": 0.9901412129402161
+        },
+        {
+            "mentionId": "44",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "AST",
+                "beginOffset": 470
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0242192"
+                },
+                {
+                    "entityId": "UMLS/C1415181"
+                },
+                {
+                    "entityId": "UMLS/C1420113"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9996144771575928
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999676942825317
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999865293502808
+            },
+            "confidence": 0.9988661408424377
+        },
+        {
+            "mentionId": "45",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "ALT",
+                "beginOffset": 475
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0376147"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9995967149734497
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999744892120361
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999861717224121
+            },
+            "confidence": 0.9989771842956543
+        },
+        {
+            "mentionId": "46",
+            "type": "LABORATORY_DATA",
+            "text": {
+                "content": "alkaline phosphatase",
+                "beginOffset": 484
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0002059"
+                },
+                {
+                    "entityId": "UMLS/C0031678"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9992377758026123
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999639987945557
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9999943971633911
+            },
+            "confidence": 0.9993209838867188
+        },
+        {
+            "mentionId": "47",
+            "type": "LAB_RESULT",
+            "text": {
+                "content": "within normal limits",
+                "beginOffset": 510
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0442816"
+                },
+                {
+                    "entityId": "UMLS/C0442816"
+                },
+                {
+                    "entityId": "UMLS/C5200925"
+                },
+                {
+                    "entityId": "UMLS/C5202633"
+                },
+                {
+                    "entityId": "UMLS/C1873497"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9999921321868896
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9999985694885254
+            },
+            "subject": {
+                "value": "PATIENT"
+            },
+            "confidence": 0.9880366921424866
+        }
+    ],
+    "entities": [
+        {
+            "entityId": "UMLS/C0001924",
+            "preferredTerm": "Albumins",
+            "vocabularyCodes": [
+                "LNC/LP31978-7",
+                "LNC/LP6118-6",
+                "LNC/MTHU001929",
+                "MSH/D000418",
+                "MTH/NOCODE",
+                "MTH/U000367",
+                "NCI/C214",
+                "NCI/TCGA",
+                "VANDF/4019595"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0002059",
+            "preferredTerm": "Alkaline Phosphatase",
+            "vocabularyCodes": [
+                "LNC/LP15346-7",
+                "LNC/MTHU005195",
+                "MSH/D000469",
+                "MTH/NOCODE",
+                "MTH/U000226",
+                "NCI/C16276"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0002712",
+            "preferredTerm": "amylase",
+            "vocabularyCodes": [
+                "LNC/LP15355-8",
+                "LNC/MTHU004882",
+                "MSH/D000681",
+                "MTH/NOCODE",
+                "NCI/C16284",
+                "RXNORM/743",
+                "VANDF/4018422"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0005367",
+            "preferredTerm": "Bicarbonates",
+            "vocabularyCodes": [
+                "LNC/LP15441-6",
+                "LNC/MTHU003445",
+                "MSH/D001639",
+                "MTH/NOCODE",
+                "MTH/U000139",
+                "MTH/U000236",
+                "VANDF/4021891"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0005767",
+            "preferredTerm": "Blood",
+            "vocabularyCodes": [
+                "FMA/9670",
+                "LNC/LA17759-4",
+                "LNC/LP7057-5",
+                "LNC/LP71680-0",
+                "LNC/MTHU029981",
+                "MSH/D001769",
+                "MTH/U000373",
+                "MTH/U003259"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0005768",
+            "preferredTerm": "In Blood",
+            "vocabularyCodes": [
+                "MSH/Q000097",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0005771",
+            "preferredTerm": "Blood Cell Count",
+            "vocabularyCodes": [
+                "MSH/D001772",
+                "MTH/NOCODE",
+                "MTH/U000154"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0005821",
+            "preferredTerm": "Blood Platelets",
+            "vocabularyCodes": [
+                "FMA/62851",
+                "LNC/LA19726-1",
+                "LNC/LP14597-6",
+                "LNC/LP16772-3",
+                "LNC/LP247828-9",
+                "LNC/LP247829-7",
+                "LNC/LP70360-0",
+                "LNC/LP7631-7",
+                "LNC/MTHU002432",
+                "LNC/MTHU008063",
+                "MSH/D001792",
+                "MTH/NOCODE",
+                "MTH/U000206",
+                "NCI/C12520",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0005845",
+            "preferredTerm": "Blood urea nitrogen measurement",
+            "vocabularyCodes": [
+                "MSH/D001806",
+                "MTH/NOCODE",
+                "MTH/U000004",
+                "MTH/U000073",
+                "MTH/U000141",
+                "NCI/C61019"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0006675",
+            "preferredTerm": "calcium",
+            "vocabularyCodes": [
+                "LNC/LP15257-6",
+                "LNC/LP32547-9",
+                "LNC/LP70404-6",
+                "LNC/MTHU001930",
+                "MSH/D002118",
+                "MTH/NOCODE",
+                "MTH/U000229",
+                "NCI/C331",
+                "RXNORM/1895",
+                "VANDF/4017652"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0007584",
+            "preferredTerm": "Cell Count",
+            "vocabularyCodes": [
+                "MSH/D002452",
+                "MTH/NOCODE",
+                "NCI/C48938"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0009555",
+            "preferredTerm": "Complete Blood Count",
+            "vocabularyCodes": [
+                "LNC/LP96793-2",
+                "MSH/D001772",
+                "MTH/NOCODE",
+                "MTH/U000007",
+                "MTH/U000075",
+                "NCI/C28133",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0010294",
+            "preferredTerm": "creatinine",
+            "vocabularyCodes": [
+                "LNC/LP14355-9",
+                "LNC/LP32035-5",
+                "LNC/MTHU002337",
+                "MSH/D003404",
+                "MTH/NOCODE",
+                "MTH/U000143",
+                "MTH/U000248",
+                "NCI/C399",
+                "NCI/TCGA",
+                "RXNORM/2913"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0017725",
+            "preferredTerm": "glucose",
+            "vocabularyCodes": [
+                "FMA/82743",
+                "LNC/LP14635-4",
+                "LNC/LP32534-7",
+                "LNC/MTHU001675",
+                "MSH/D005947",
+                "MTH/NOCODE",
+                "NCI/C2831",
+                "RXNORM/4850",
+                "VANDF/4017760",
+                "VANDF/4019541"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0018935",
+            "preferredTerm": "Hematocrit procedure",
+            "vocabularyCodes": [
+                "LNC/LP15101-6",
+                "LNC/MTHU002446",
+                "MSH/D006400",
+                "MTH/U000010",
+                "MTH/U000078",
+                "MTH/U000153",
+                "MTH/U001974",
+                "NCI/C64796"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0019046",
+            "preferredTerm": "Hemoglobin",
+            "vocabularyCodes": [
+                "FMA/62293",
+                "LNC/LP14449-0",
+                "LNC/LP32067-8",
+                "LNC/MTHU004672",
+                "MSH/D006454",
+                "MTH/U001975",
+                "NCI/C16676"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0023508",
+            "preferredTerm": "White Blood Cell Count procedure",
+            "vocabularyCodes": [
+                "MSH/D007958",
+                "MTH/U000013",
+                "MTH/U000081",
+                "MTH/U000158",
+                "MTH/U002041",
+                "NCI/C51948"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0023516",
+            "preferredTerm": "Leukocytes",
+            "vocabularyCodes": [
+                "FMA/62852",
+                "LNC/LA12894-4",
+                "LNC/LP14419-3",
+                "LNC/LP157588-7",
+                "LNC/LP20670-3",
+                "LNC/LP7720-8",
+                "LNC/MTHU001946",
+                "LNC/MTHU051577",
+                "MSH/D007962",
+                "MTH/NOCODE",
+                "MTH/U000080",
+                "MTH/U000173",
+                "NCI/C12529",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0023764",
+            "preferredTerm": "lipase",
+            "vocabularyCodes": [
+                "LNC/LP14915-0",
+                "LNC/MTHU002175",
+                "MSH/D008049",
+                "MTH/NOCODE",
+                "NCI/C37988",
+                "RXNORM/6406",
+                "VANDF/4018423"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0024264",
+            "preferredTerm": "Lymphocyte",
+            "vocabularyCodes": [
+                "FMA/62863",
+                "LNC/LA28286-5",
+                "LNC/LP14540-6",
+                "LNC/LP30914-3",
+                "LNC/MTHU004645",
+                "MSH/D008214",
+                "MTH/NOCODE",
+                "MTH/U000176",
+                "NCI/C12535",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0031678",
+            "preferredTerm": "Phosphoric Monoester Hydrolases",
+            "vocabularyCodes": [
+                "LNC/LP20716-4",
+                "MSH/D010744",
+                "MTH/NOCODE",
+                "NCI/C16981"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0032821",
+            "preferredTerm": "potassium",
+            "vocabularyCodes": [
+                "LNC/LP15098-4",
+                "LNC/LP32134-6",
+                "LNC/MTHU003561",
+                "MSH/D011188",
+                "MTH/NOCODE",
+                "MTH/U000145",
+                "MTH/U000315",
+                "NCI/C765",
+                "RXNORM/8588",
+                "VANDF/4017695"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0037473",
+            "preferredTerm": "sodium",
+            "vocabularyCodes": [
+                "LNC/LP15099-2",
+                "LNC/LP32156-9",
+                "LNC/MTHU003686",
+                "MSH/D012964",
+                "MTH/NOCODE",
+                "NCI/C830",
+                "RXNORM/9853",
+                "VANDF/4018159"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0039985",
+            "preferredTerm": "Plain chest X-ray",
+            "vocabularyCodes": [
+                "LNC/LA16043-4",
+                "MTH/NOCODE",
+                "NCI/C38103"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0043299",
+            "preferredTerm": "Diagnostic radiologic examination",
+            "vocabularyCodes": [
+                "ICD9CM/87",
+                "MSH/D011859",
+                "MTH/U003336",
+                "NCI/C38101",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0064990",
+            "preferredTerm": "calcium oxide",
+            "vocabularyCodes": [
+                "MSH/C016538",
+                "MTH/NOCODE",
+                "NCI/C82641",
+                "RXNORM/28728"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0201975",
+            "preferredTerm": "Creatinine measurement",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C64547"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0205090",
+            "preferredTerm": "Right",
+            "vocabularyCodes": [
+                "LNC/LA4306-2",
+                "LNC/LP199953-3",
+                "LNC/LP33952-0",
+                "LNC/LP35055-0",
+                "MTH/NOCODE",
+                "NCI/C25228",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0225758",
+            "preferredTerm": "Structure of lower lobe of lung",
+            "vocabularyCodes": [
+                "FMA/7335",
+                "MTH/NOCODE",
+                "NCI/C12287"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0229664",
+            "preferredTerm": "peripheral blood",
+            "vocabularyCodes": [
+                "LNC/MTHU003709",
+                "MTH/NOCODE",
+                "NCI/C12434",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0242192",
+            "preferredTerm": "SGOT - Glutamate oxaloacetate transaminase",
+            "vocabularyCodes": [
+                "MSH/D001219",
+                "MTH/NOCODE",
+                "MTH/U000327",
+                "NCI/C25202"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0332448",
+            "preferredTerm": "Infiltration",
+            "vocabularyCodes": [
+                "LNC/LA26030-9",
+                "MTH/NOCODE",
+                "NCI/C25754",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0337438",
+            "preferredTerm": "Glucose measurement",
+            "vocabularyCodes": [
+                "MTH/U000144",
+                "MTH/U000264",
+                "MTH/U000371",
+                "MTH/U000375",
+                "NCI/C105585"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0337443",
+            "preferredTerm": "Sodium measurement",
+            "vocabularyCodes": [
+                "MTH/U000151",
+                "MTH/U000334",
+                "MTH/U000400",
+                "NCI/C64809"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0376147",
+            "preferredTerm": "SGPT - Glutamate pyruvate transaminase",
+            "vocabularyCodes": [
+                "MSH/D000410",
+                "MTH/NOCODE",
+                "MTH/U000331",
+                "NCI/C25293"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0441994",
+            "preferredTerm": "Lower - spatial qualifier",
+            "vocabularyCodes": [
+                "LNC/LP35082-4",
+                "MTH/NOCODE",
+                "NCI/C25309",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0442816",
+            "preferredTerm": "Normal limits",
+            "vocabularyCodes": [
+                "LNC/LA4439-1",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0443116",
+            "preferredTerm": "Platelets Product",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C133278"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0443246",
+            "preferredTerm": "Left sided",
+            "vocabularyCodes": [
+                "HPO/HP:0012835",
+                "LNC/LA4585-1",
+                "MTH/NOCODE",
+                "NCI/C124553"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0444532",
+            "preferredTerm": "Right sided",
+            "vocabularyCodes": [
+                "HPO/HP:0012834",
+                "MTH/NOCODE",
+                "NCI/C124581"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0519825",
+            "preferredTerm": "Comprehensive Metabolic Panel",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C137828"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0596019",
+            "preferredTerm": "chloride ion",
+            "vocabularyCodes": [
+                "LNC/LP15483-8",
+                "LNC/MTHU003448",
+                "MTH/NOCODE",
+                "MTH/U000142",
+                "NCI/C1741",
+                "RXNORM/153974",
+                "VANDF/4018702"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0796494",
+            "preferredTerm": "lobe",
+            "vocabularyCodes": [
+                "FMA/45728",
+                "MTH/NOCODE",
+                "NCI/C13393",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0817096",
+            "preferredTerm": "Chest",
+            "vocabularyCodes": [
+                "FMA/9576",
+                "LNC/LA18111-7",
+                "LNC/LP199962-4",
+                "LNC/LP7138-3",
+                "LNC/LP7628-3",
+                "LNC/LP7630-9",
+                "LNC/MTHU002671",
+                "LNC/MTHU002925",
+                "MSH/D013909",
+                "MTH/NOCODE",
+                "NCI/C12799",
+                "NCI/C13360",
+                "NCI/C25389",
+                "NCI/TCGA",
+                "OMIM/MTHU000077"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1261075",
+            "preferredTerm": "Structure of right lower lobe of lung",
+            "vocabularyCodes": [
+                "FMA/7337",
+                "LNC/LA25364-3",
+                "MTH/NOCODE",
+                "NCI/C33022",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1261077",
+            "preferredTerm": "Structure of left lower lobe of lung",
+            "vocabularyCodes": [
+                "FMA/7371",
+                "LNC/LA25365-0",
+                "MTH/NOCODE",
+                "NCI/C33020",
+                "NCI/TCGA"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1306645",
+            "preferredTerm": "Plain x-ray",
+            "vocabularyCodes": [
+                "LNC/LA9481-8",
+                "MTH/NOCODE",
+                "NCI/C60727"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1412332",
+            "preferredTerm": "ALB gene",
+            "vocabularyCodes": [
+                "HGNC/HGNC:399",
+                "MTH/NOCODE",
+                "OMIM/103600"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1415181",
+            "preferredTerm": "GOT1 gene",
+            "vocabularyCodes": [
+                "HGNC/HGNC:4432",
+                "MTH/NOCODE",
+                "NCI/C38499",
+                "OMIM/138180"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1417041",
+            "preferredTerm": "MATN1 gene",
+            "vocabularyCodes": [
+                "HGNC/HGNC:6907",
+                "MTH/NOCODE",
+                "OMIM/115437"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1420113",
+            "preferredTerm": "SLC17A5 gene",
+            "vocabularyCodes": [
+                "HGNC/HGNC:10933",
+                "LNC/LP208425-1",
+                "MTH/NOCODE",
+                "OMIM/604322"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1873497",
+            "preferredTerm": "Normal assessment finding",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "OMIM/MTHU002946"
+            ]
+        },
+        {
+            "entityId": "UMLS/C2722820",
+            "preferredTerm": "Bicarbonate preparation",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "VANDF/4028921"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3714611",
+            "preferredTerm": "Calcium Drug Class",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "VANDF/4021884"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3714637",
+            "preferredTerm": "Potassium Drug Class",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "VANDF/4021885"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3714642",
+            "preferredTerm": "Sodium Drug Class",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "VANDF/4021886"
+            ]
+        },
+        {
+            "entityId": "UMLS/C5200925",
+            "preferredTerm": "Normal Gait",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C121439",
+                "NCI/MSTS93"
+            ]
+        },
+        {
+            "entityId": "UMLS/C5202633",
+            "preferredTerm": "Normal Immune Presence",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C159472"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "subjectId": "2",
+            "objectId": "1",
+            "confidence": 0.9997727274894714
+        },
+        {
+            "subjectId": "4",
+            "objectId": "2",
+            "confidence": 0.9893783926963806
+        },
+        {
+            "subjectId": "4",
+            "objectId": "3",
+            "confidence": 0.9967206716537476
+        },
+        {
+            "subjectId": "5",
+            "objectId": "2",
+            "confidence": 0.9823938608169556
+        },
+        {
+            "subjectId": "5",
+            "objectId": "6",
+            "confidence": 0.9682940244674683
+        },
+        {
+            "subjectId": "8",
+            "objectId": "9",
+            "confidence": 0.9974457025527954
+        },
+        {
+            "subjectId": "10",
+            "objectId": "11",
+            "confidence": 0.9999983310699463
+        },
+        {
+            "subjectId": "12",
+            "objectId": "13",
+            "confidence": 0.9983686208724976
+        },
+        {
+            "subjectId": "14",
+            "objectId": "15",
+            "confidence": 0.998609721660614
+        },
+        {
+            "subjectId": "16",
+            "objectId": "17",
+            "confidence": 0.9994804859161377
+        },
+        {
+            "subjectId": "18",
+            "objectId": "19",
+            "confidence": 0.9999992847442627
+        },
+        {
+            "subjectId": "20",
+            "objectId": "21",
+            "confidence": 0.999069094657898
+        },
+        {
+            "subjectId": "23",
+            "objectId": "24",
+            "confidence": 1
+        },
+        {
+            "subjectId": "25",
+            "objectId": "26",
+            "confidence": 1
+        },
+        {
+            "subjectId": "27",
+            "objectId": "28",
+            "confidence": 0.9999895691871643
+        },
+        {
+            "subjectId": "29",
+            "objectId": "30",
+            "confidence": 0.9998825788497925
+        },
+        {
+            "subjectId": "31",
+            "objectId": "32",
+            "confidence": 0.9999834895133972
+        },
+        {
+            "subjectId": "31",
+            "objectId": "33",
+            "confidence": 0.9998147487640381
+        },
+        {
+            "subjectId": "34",
+            "objectId": "35",
+            "confidence": 0.999999463558197
+        },
+        {
+            "subjectId": "36",
+            "objectId": "37",
+            "confidence": 0.9943609237670898
+        },
+        {
+            "subjectId": "38",
+            "objectId": "39",
+            "confidence": 0.9944286346435547
+        },
+        {
+            "subjectId": "40",
+            "objectId": "41",
+            "confidence": 0.999846339225769
+        },
+        {
+            "subjectId": "42",
+            "objectId": "43",
+            "confidence": 0.999300479888916
+        },
+        {
+            "subjectId": "44",
+            "objectId": "47",
+            "confidence": 0.997880220413208
+        },
+        {
+            "subjectId": "45",
+            "objectId": "47",
+            "confidence": 0.9963856935501099
+        },
+        {
+            "subjectId": "46",
+            "objectId": "47",
+            "confidence": 0.9999626278877258
+        }
+    ]
+}

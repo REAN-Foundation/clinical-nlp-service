@@ -1,0 +1,680 @@
+{
+    "Results": {
+        "Entities": [
+            {
+                "Id": 0,
+                "BeginOffset": 0,
+                "EndOffset": 5,
+                "Score": 0.9639442563056946,
+                "Text": "Chest",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 8,
+                "BeginOffset": 0,
+                "EndOffset": 11,
+                "Score": 0.9198427200317383,
+                "Text": "Chest x-ray",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9507637023925781,
+                        "RelationshipScore": 0.999440610408783,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 10,
+                        "BeginOffset": 36,
+                        "EndOffset": 63,
+                        "Text": "right lower lobe infiltrate",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9809464812278748,
+                        "RelationshipScore": 0.998234748840332,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 11,
+                        "BeginOffset": 65,
+                        "EndOffset": 107,
+                        "Text": "questionable infiltrate in left lower lobe",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 7,
+                "BeginOffset": 24,
+                "EndOffset": 26,
+                "Score": 0.9311537742614746,
+                "Text": "ER",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ADDRESS",
+                "Traits": []
+            },
+            {
+                "Id": 9,
+                "BeginOffset": 24,
+                "EndOffset": 26,
+                "Score": 0.41866979002952576,
+                "Text": "ER",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9507637023925781,
+                        "RelationshipScore": 0.9999558925628662,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 10,
+                        "BeginOffset": 36,
+                        "EndOffset": 63,
+                        "Text": "right lower lobe infiltrate",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9809464812278748,
+                        "RelationshipScore": 0.9998559951782227,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 11,
+                        "BeginOffset": 65,
+                        "EndOffset": 107,
+                        "Text": "questionable infiltrate in left lower lobe",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 48,
+                "EndOffset": 52,
+                "Score": 0.8797816634178162,
+                "Text": "lobe",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 103,
+                "EndOffset": 107,
+                "Score": 0.5243034958839417,
+                "Text": "lobe",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 12,
+                "BeginOffset": 109,
+                "EndOffset": 112,
+                "Score": 0.9900701642036438,
+                "Text": "CMP",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 13,
+                "BeginOffset": 120,
+                "EndOffset": 126,
+                "Score": 0.9948268532752991,
+                "Text": "sodium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9987925291061401,
+                        "RelationshipScore": 0.9997549653053284,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 14,
+                        "BeginOffset": 127,
+                        "EndOffset": 130,
+                        "Text": "138",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 15,
+                "BeginOffset": 132,
+                "EndOffset": 141,
+                "Score": 0.9997599720954895,
+                "Text": "potassium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9996567964553833,
+                        "RelationshipScore": 0.9999974966049194,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 16,
+                        "BeginOffset": 142,
+                        "EndOffset": 145,
+                        "Text": "3.7",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 17,
+                "BeginOffset": 147,
+                "EndOffset": 155,
+                "Score": 0.9991604089736938,
+                "Text": "chloride",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9989199638366699,
+                        "RelationshipScore": 0.9987847208976746,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 18,
+                        "BeginOffset": 156,
+                        "EndOffset": 159,
+                        "Text": "100",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 19,
+                "BeginOffset": 161,
+                "EndOffset": 172,
+                "Score": 0.9991389513015747,
+                "Text": "bicarbonate",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9993391633033752,
+                        "RelationshipScore": 0.9999998807907104,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 20,
+                        "BeginOffset": 173,
+                        "EndOffset": 175,
+                        "Text": "21",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 21,
+                "BeginOffset": 177,
+                "EndOffset": 180,
+                "Score": 0.9998914003372192,
+                "Text": "BUN",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9987527132034302,
+                        "RelationshipScore": 0.9999994039535522,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 22,
+                        "BeginOffset": 181,
+                        "EndOffset": 183,
+                        "Text": "10",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 23,
+                "BeginOffset": 185,
+                "EndOffset": 195,
+                "Score": 0.9998453855514526,
+                "Text": "creatinine",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9998295307159424,
+                        "RelationshipScore": 0.9999971389770508,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 24,
+                        "BeginOffset": 196,
+                        "EndOffset": 199,
+                        "Text": "0.7",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 25,
+                "BeginOffset": 205,
+                "EndOffset": 218,
+                "Score": 0.9976978898048401,
+                "Text": "blood glucose",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9993860721588135,
+                        "RelationshipScore": 0.9999978542327881,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 26,
+                        "BeginOffset": 222,
+                        "EndOffset": 225,
+                        "Text": "242",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 27,
+                "BeginOffset": 231,
+                "EndOffset": 234,
+                "Score": 0.9943430423736572,
+                "Text": "CBC",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 28,
+                "BeginOffset": 242,
+                "EndOffset": 264,
+                "Score": 0.9990986585617065,
+                "Text": "white blood cell count",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9990516304969788,
+                        "RelationshipScore": 0.9999945163726807,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 29,
+                        "BeginOffset": 268,
+                        "EndOffset": 274,
+                        "Text": "13,900",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 30,
+                "BeginOffset": 276,
+                "EndOffset": 286,
+                "Score": 0.9984983205795288,
+                "Text": "hemoglobin",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9999499320983887,
+                        "RelationshipScore": 0.9999921321868896,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 31,
+                        "BeginOffset": 287,
+                        "EndOffset": 291,
+                        "Text": "13.1",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 32,
+                "BeginOffset": 293,
+                "EndOffset": 303,
+                "Score": 0.9979962110519409,
+                "Text": "hematocrit",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9998445510864258,
+                        "RelationshipScore": 0.999901533126831,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 33,
+                        "BeginOffset": 307,
+                        "EndOffset": 311,
+                        "Text": "39.6",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 34,
+                "BeginOffset": 317,
+                "EndOffset": 326,
+                "Score": 0.9953721165657043,
+                "Text": "platelets",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9970364570617676,
+                        "RelationshipScore": 0.9999850988388062,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 35,
+                        "BeginOffset": 330,
+                        "EndOffset": 337,
+                        "Text": "235,000",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 36,
+                "BeginOffset": 343,
+                "EndOffset": 353,
+                "Score": 0.706122100353241,
+                "Text": "poly count",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.998199462890625,
+                        "RelationshipScore": 0.999976396560669,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 37,
+                        "BeginOffset": 358,
+                        "EndOffset": 362,
+                        "Text": "90.5",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.9954655766487122,
+                        "RelationshipScore": 0.9999576807022095,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 38,
+                        "BeginOffset": 362,
+                        "EndOffset": 363,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 39,
+                "BeginOffset": 372,
+                "EndOffset": 383,
+                "Score": 0.9875084757804871,
+                "Text": "lymphocytes",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9996670484542847,
+                        "RelationshipScore": 0.9999837875366211,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 40,
+                        "BeginOffset": 389,
+                        "EndOffset": 392,
+                        "Text": "6.4",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 41,
+                "BeginOffset": 414,
+                "EndOffset": 421,
+                "Score": 0.9819481372833252,
+                "Text": "amylase",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9991056323051453,
+                        "RelationshipScore": 0.9999971389770508,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 42,
+                        "BeginOffset": 426,
+                        "EndOffset": 428,
+                        "Text": "75",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 43,
+                "BeginOffset": 433,
+                "EndOffset": 439,
+                "Score": 0.9991006851196289,
+                "Text": "lipase",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9995185136795044,
+                        "RelationshipScore": 0.9999902248382568,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 44,
+                        "BeginOffset": 440,
+                        "EndOffset": 442,
+                        "Text": "28",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 45,
+                "BeginOffset": 444,
+                "EndOffset": 451,
+                "Score": 0.9996188879013062,
+                "Text": "Albumin",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9997377991676331,
+                        "RelationshipScore": 0.9999417066574097,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 46,
+                        "BeginOffset": 452,
+                        "EndOffset": 455,
+                        "Text": "4.3",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 47,
+                "BeginOffset": 457,
+                "EndOffset": 464,
+                "Score": 0.9993698000907898,
+                "Text": "Calcium",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.999573290348053,
+                        "RelationshipScore": 0.9999964237213135,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 48,
+                        "BeginOffset": 465,
+                        "EndOffset": 468,
+                        "Text": "9.3",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 49,
+                "BeginOffset": 470,
+                "EndOffset": 473,
+                "Score": 0.9085321426391602,
+                "Text": "AST",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 50,
+                "BeginOffset": 475,
+                "EndOffset": 478,
+                "Score": 0.9804137349128723,
+                "Text": "ALT",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 51,
+                "BeginOffset": 484,
+                "EndOffset": 504,
+                "Score": 0.9981790781021118,
+                "Text": "alkaline phosphatase",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9866647720336914,
+                        "RelationshipScore": 0.9999626874923706,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 52,
+                        "BeginOffset": 510,
+                        "EndOffset": 530,
+                        "Text": "within normal limits",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.9784832000732422,
+                    "Id": 1,
+                    "BeginOffset": 36,
+                    "EndOffset": 41,
+                    "Text": "right",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.8739274740219116,
+                    "Id": 2,
+                    "BeginOffset": 42,
+                    "EndOffset": 47,
+                    "Text": "lower",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.6856738924980164,
+                    "Id": 4,
+                    "BeginOffset": 92,
+                    "EndOffset": 96,
+                    "Text": "left",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.48426389694213867,
+                    "Id": 5,
+                    "BeginOffset": 97,
+                    "EndOffset": 102,
+                    "Text": "lower",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "1.0.0"
+    },
+    "ProtectedHealthInformation": {
+        "Entities": [
+            {
+                "Id": 0,
+                "BeginOffset": 24,
+                "EndOffset": 26,
+                "Score": 0.9311537742614746,
+                "Text": "ER",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ADDRESS",
+                "Traits": []
+            }
+        ],
+        "ModelVersion": "0.0.0"
+    },
+    "RXNorm_identifiers": {
+        "Entities": [],
+        "ModelVersion": "20200504.1.0"
+    },
+    "ICD10CM_identifiers": {
+        "Entities": [],
+        "ModelVersion": "0.1.0"
+    }
+}

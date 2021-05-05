@@ -1,0 +1,406 @@
+{
+    "Results": {
+        "Entities": [
+            {
+                "Id": 7,
+                "BeginOffset": 0,
+                "EndOffset": 15,
+                "Score": 0.8307260870933533,
+                "Text": "Twelve-lead EKG",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.865868330001831,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 8,
+                        "BeginOffset": 75,
+                        "EndOffset": 104,
+                        "Text": "no evidence of acute ischemia",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.858788013458252,
+                        "RelationshipScore": 0.9396314024925232,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 10,
+                        "BeginOffset": 131,
+                        "EndOffset": 156,
+                        "Text": "bilateral pulmonary edema",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9737259149551392,
+                        "RelationshipScore": 0.9826173186302185,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 11,
+                        "BeginOffset": 158,
+                        "EndOffset": 193,
+                        "Text": "questionable infiltrate at the base",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 50,
+                "EndOffset": 69,
+                "Score": 0.9291195869445801,
+                "Text": "atrial fibrillation",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9144918322563171
+                    }
+                ]
+            },
+            {
+                "Id": 5,
+                "BeginOffset": 96,
+                "EndOffset": 104,
+                "Score": 0.9965425133705139,
+                "Text": "ischemia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7680385112762451
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9629737734794617
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.9547801613807678,
+                        "RelationshipScore": 0.9999490976333618,
+                        "RelationshipType": "ACUITY",
+                        "Id": 4,
+                        "BeginOffset": 90,
+                        "EndOffset": 95,
+                        "Text": "acute",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 0,
+                "BeginOffset": 106,
+                "EndOffset": 111,
+                "Score": 0.9616777300834656,
+                "Text": "Chest",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 9,
+                "BeginOffset": 106,
+                "EndOffset": 117,
+                "Score": 0.9775114059448242,
+                "Text": "Chest x-ray",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.858788013458252,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 10,
+                        "BeginOffset": 131,
+                        "EndOffset": 156,
+                        "Text": "bilateral pulmonary edema",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9737259149551392,
+                        "RelationshipScore": 1,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 11,
+                        "BeginOffset": 158,
+                        "EndOffset": 193,
+                        "Text": "questionable infiltrate at the base",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 141,
+                "EndOffset": 156,
+                "Score": 0.8284522294998169,
+                "Text": "pulmonary edema",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5208798050880432
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.9945911765098572,
+                        "RelationshipScore": 0.9872281551361084,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 1,
+                        "BeginOffset": 131,
+                        "EndOffset": 140,
+                        "Text": "bilateral",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.7786190509796143,
+                        "RelationshipScore": 0.8412075042724609,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 2,
+                        "BeginOffset": 189,
+                        "EndOffset": 193,
+                        "Text": "base",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 189,
+                "EndOffset": 193,
+                "Score": 0.7786190509796143,
+                "Text": "base",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "MEDICAL_CONDITION",
+                "Attribute": {
+                    "Type": "ACUITY",
+                    "Score": 0.9547801613807678,
+                    "Id": 4,
+                    "BeginOffset": 90,
+                    "EndOffset": 95,
+                    "Text": "acute",
+                    "Category": "MEDICAL_CONDITION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.9945911765098572,
+                    "Id": 1,
+                    "BeginOffset": 131,
+                    "EndOffset": 140,
+                    "Text": "bilateral",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "1.0.0"
+    },
+    "ProtectedHealthInformation": {
+        "Entities": [],
+        "ModelVersion": "0.0.0"
+    },
+    "RXNorm_identifiers": {
+        "Entities": [],
+        "ModelVersion": "20200504.1.0"
+    },
+    "ICD10CM_identifiers": {
+        "Entities": [
+            {
+                "Id": 0,
+                "Text": "atrial fibrillation",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9291195869445801,
+                "BeginOffset": 50,
+                "EndOffset": 69,
+                "Attributes": [],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9144918322563171
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Unspecified atrial fibrillation",
+                        "Code": "I48.91",
+                        "Score": 0.8201923370361328
+                    },
+                    {
+                        "Description": "Paroxysmal atrial fibrillation",
+                        "Code": "I48.0",
+                        "Score": 0.8013912439346313
+                    },
+                    {
+                        "Description": "Persistent atrial fibrillation",
+                        "Code": "I48.1",
+                        "Score": 0.7935779094696045
+                    },
+                    {
+                        "Description": "Chronic atrial fibrillation",
+                        "Code": "I48.2",
+                        "Score": 0.7765137553215027
+                    },
+                    {
+                        "Description": "Ventricular fibrillation",
+                        "Code": "I49.01",
+                        "Score": 0.6880868077278137
+                    }
+                ]
+            },
+            {
+                "Id": 2,
+                "Text": "ischemia",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.9965425133705139,
+                "BeginOffset": 96,
+                "EndOffset": 104,
+                "Attributes": [
+                    {
+                        "Type": "ACUITY",
+                        "Score": 0.9547801613807678,
+                        "RelationshipScore": 0.9999490976333618,
+                        "Id": 1,
+                        "BeginOffset": 90,
+                        "EndOffset": 95,
+                        "Text": "acute",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.7680385112762451
+                    },
+                    {
+                        "Name": "NEGATION",
+                        "Score": 0.9629737734794617
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Chronic ischemic heart disease, unspecified",
+                        "Code": "I25.9",
+                        "Score": 0.7749819755554199
+                    },
+                    {
+                        "Description": "Acute ischemic heart disease, unspecified",
+                        "Code": "I24.9",
+                        "Score": 0.7145359516143799
+                    },
+                    {
+                        "Description": "Other disorder of circulatory system",
+                        "Code": "I99.8",
+                        "Score": 0.7069268822669983
+                    },
+                    {
+                        "Description": "Cerebral ischemia",
+                        "Code": "I67.82",
+                        "Score": 0.6626848578453064
+                    },
+                    {
+                        "Description": "Acute (reversible) ischemia of intestine, part and extent unspecified",
+                        "Code": "K55.059",
+                        "Score": 0.5790789127349854
+                    }
+                ]
+            },
+            {
+                "Id": 5,
+                "Text": "pulmonary edema",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Score": 0.8284522294998169,
+                "BeginOffset": 141,
+                "EndOffset": 156,
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.9945911765098572,
+                        "RelationshipScore": 0.9872281551361084,
+                        "Id": 4,
+                        "BeginOffset": 131,
+                        "EndOffset": 140,
+                        "Text": "bilateral",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.7786190509796143,
+                        "RelationshipScore": 0.8412075042724609,
+                        "Id": 6,
+                        "BeginOffset": 189,
+                        "EndOffset": 193,
+                        "Text": "base",
+                        "Traits": []
+                    }
+                ],
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5208798050880432
+                    }
+                ],
+                "ICD10CMConcepts": [
+                    {
+                        "Description": "Chronic pulmonary edema",
+                        "Code": "J81.1",
+                        "Score": 0.7268556952476501
+                    },
+                    {
+                        "Description": "Acute pulmonary edema",
+                        "Code": "J81.0",
+                        "Score": 0.5983708500862122
+                    },
+                    {
+                        "Description": "Pulmonary edema",
+                        "Code": "J81",
+                        "Score": 0.5603723526000977
+                    },
+                    {
+                        "Description": "Localized edema",
+                        "Code": "R60.0",
+                        "Score": 0.5093093514442444
+                    },
+                    {
+                        "Description": "Edema, unspecified",
+                        "Code": "R60.9",
+                        "Score": 0.4282156825065613
+                    }
+                ]
+            }
+        ],
+        "ModelVersion": "0.1.0"
+    }
+}
