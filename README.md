@@ -1,6 +1,6 @@
 # reancare-extensions
 
-These are extension modules for core reancare-service
+These are extension modules for core reancare-service.
 
 Following are the existing modules.
 
