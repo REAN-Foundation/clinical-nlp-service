@@ -27,7 +27,7 @@
     "aws-sdk": "^2.888.0",
     "dotenv": "^8.2.0",
     "googleapis": "^71.0.0",
-    "needle": "^2.6.0",
+    "needle": "^2.9.1",
     "reflect-metadata": "^0.1.13",
     "sleep": "^6.3.0",
     "tsyringe": "^4.5.0"
